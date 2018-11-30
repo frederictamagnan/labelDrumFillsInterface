@@ -1,56 +1,41 @@
-def save(multitrack, filename, compressed=True):
+from random import shuffle
+
+
+def shuffle_list(*ls):
+  l =list(zip(*ls))
+
+  shuffle(l)
+  return zip(*l)
+
+
+
+import sys
+if sys.version_info[0] < 3:
+    import Tkinter as tk
+else:
+    import tkinter as tk
+import matplotlib.backends.tkagg as tkagg
+from matplotlib.backends.backend_agg import FigureCanvasAgg
+
+
+def draw_figure(canvas, figure, loc=(0, 0)):
+    """ Draw a matplotlib figure onto a Tk canvas
+
+    loc: location of top-left corner of figure on canvas in pixels.
+    Inspired by matplotlib source: lib/matplotlib/backends/backend_tkagg.py
     """
-    Save the multitrack pianoroll to a (compressed) npz file, which can be
-    later loaded by :meth:`pypianoroll.Multitrack.load`.
+    figure_canvas_agg = FigureCanvasAgg(figure)
+    figure_canvas_agg.draw()
+    figure_x, figure_y, figure_w, figure_h = figure.bbox.bounds
+    figure_w, figure_h = int(figure_w), int(figure_h)
+    photo = tk.PhotoImage(master=canvas, width=figure_w, height=figure_h)
 
-    Notes
-    -----
-    To reduce the file size, the pianorolls are first converted to instances
-    of scipy.sparse.csc_matrix, whose component arrays are then collected
-    and saved to a npz file.
+    # Position: convert from top-left anchor to center anchor
+    canvas.create_image(loc[0] + figure_w/2, loc[1] + figure_h/2, image=photo)
 
-    Parameters
-    ----------
-    filename : str
-        The name of the npz file to which the mulitrack pianoroll is saved.
-    compressed : bool
-        True to save to a compressed npz file. False to save to an
-        uncompressed npz file. Defaults to True.
+    # Unfortunately, there's no accessor for the pointer to the native renderer
+    tkagg.blit(photo, figure_canvas_agg.get_renderer()._renderer, colormode=2)
 
-    """
-
-    def update_sparse(target_dict, sparse_matrix, name):
-        """Turn `sparse_matrix` into a scipy.sparse.csc_matrix and update
-        its component arrays to the `target_dict` with key as `name`
-        suffixed with its component type string."""
-        csc = csc_matrix(sparse_matrix)
-        target_dict[name + '_csc_data'] = csc.data
-        target_dict[name + '_csc_indices'] = csc.indices
-        target_dict[name + '_csc_indptr'] = csc.indptr
-        target_dict[name + '_csc_shape'] = csc.shape
-
-    multitrack.check_validity()
-    array_dict = {'tempo': multitrack.tempo}
-    info_dict = {'beat_resolution': multitrack.beat_resolution,
-                 'name': multitrack.name}
-
-    if multitrack.downbeat is not None:
-        array_dict['downbeat'] = multitrack.downbeat
-
-    for idx, track in enumerate(multitrack.tracks):
-        update_sparse(array_dict, track.pianoroll,
-                      'pianoroll_{}'.format(idx))
-        info_dict[str(idx)] = {'program': track.program,
-                               'is_drum': track.is_drum,
-                               'name': track.name}
-
-    if not filename.endswith('.npz'):
-        filename += '.npz'
-    if compressed:
-        np.savez_compressed(filename, **array_dict)
-    else:
-        np.savez(filename, **array_dict)
-
-    compression = zipfile.ZIP_DEFLATED if compressed else zipfile.ZIP_STORED
-    with zipfile.ZipFile(filename, 'a') as zip_file:
-        zip_file.writestr('info.json', json.dumps(info_dict), compression)
+    # Return a handle which contains a reference to the photo object
+    # which must be kept live or else the picture disappears
+    return photo

@@ -1,22 +1,48 @@
-import os
 from tkinter import *
-
-
-from tkinter import *
-from PIL import ImageTk, Image
 import os
-
-
-from utils import save
-
 import numpy as np
-from pathlib import Path
 import pypianoroll as ppr
 from pypianoroll import Multitrack,Track
 import time
-import random
-
+from utils import shuffle_list
 import json
+import logging
+from logging.handlers import RotatingFileHandler
+
+from utils import draw_figure
+
+
+# création de l'objet logger qui va nous servir à écrire dans les logs
+logger = logging.getLogger()
+# on met le niveau du logger à DEBUG, comme ça il écrit tout
+logger.setLevel(logging.DEBUG)
+
+# création d'un formateur qui va ajouter le temps, le niveau
+# de chaque message quand on écrira un message dans le log
+formatter = logging.Formatter('%(asctime)s :: %(levelname)s :: %(message)s')
+# création d'un handler qui va rediriger une écriture du log vers
+# un fichier en mode 'append', avec 1 backup et une taille max de 1Mo
+file_handler = RotatingFileHandler('activity.log', 'a', 1000000, 1)
+# on lui met le niveau sur DEBUG, on lui dit qu'il doit utiliser le formateur
+# créé précédement et on ajoute ce handler au logger
+file_handler.setLevel(logging.DEBUG)
+file_handler.setFormatter(formatter)
+logger.addHandler(file_handler)
+
+# création d'un second handler qui va rediriger chaque écriture de log
+# sur la console
+stream_handler = logging.StreamHandler()
+stream_handler.setLevel(logging.DEBUG)
+logger.addHandler(stream_handler)
+
+
+
+
+
+
+
+
+
 
 
 class LabelApp(Frame):
@@ -39,6 +65,9 @@ class LabelApp(Frame):
         self.current_track_length = 0
         self.current_beat_resolution = 0
         self.beat_window_length = 2
+        self.extract=None
+        self.extract_multi=None
+        self.end_extract=None
 
         self.label_array = None
         self.current_timestep_window=0
@@ -70,22 +99,24 @@ class LabelApp(Frame):
 
         self.var_choix = StringVar()
 
-        choix_un = Radiobutton(fenetre, text="DRUM FILL", variable=self.var_choix, value=1)
+        self.choix_un = Radiobutton(self, text="DRUM FILL", variable=self.var_choix, value=1)
 
-        choix_zero = Radiobutton(fenetre, text="NO DRUM FILL", variable=self.var_choix, value=0)
+        self.choix_zero = Radiobutton(self, text="NO DRUM FILL", variable=self.var_choix, value=0)
 
-        img = ImageTk.PhotoImage(Image.open("True1.gif"))
-        panel = Label(root, image=img)
-        panel.pack(side="bottom", fill="both", expand="yes")
-        root.mainloop()
+        self.choix_un.pack()
 
+        self.choix_zero.pack()
 
+        self.warning="nowarning"
+        self.dico_warning={"warning":["You have to choose a label option","red"],"nowarning":[":)","black"]}
 
-        choix_un.pack()
+        self.champ_label = Label(self, text=self.dico_warning[self.warning][0],fg=self.dico_warning[self.warning][1])
 
-        choix_zero.pack()
+        self.champ_label.pack()
 
-
+        w, h = 1000, 500
+        self.canvas = Canvas(self, width=w, height=h)
+        self.canvas.pack()
 
 
 
@@ -108,6 +139,8 @@ class LabelApp(Frame):
 
 
         self.define_list_npz_path_to_label()
+        self.pick_a_new_track_to_label()
+        self.current_timestep -= self.current_timestep_window
 
     def define_list_npz_path_to_label(self):
 
@@ -116,9 +149,10 @@ class LabelApp(Frame):
 
 
 
-        j = 0
+
         self.list_path_tracks_to_label = []
         self.list_id_tracks_to_label=[]
+        self.list_npz_name_tracks_to_label=[]
 
         # ITERATE OVER THE TAG LISTS
 
@@ -135,73 +169,149 @@ class LabelApp(Frame):
                             self.file = file.rstrip()
                             self.middle = '/'.join(self.file[2:5]) + '/'
                             p = self.PATH + self.middle + self.file
+
+
+
+
+
                             for npz in os.listdir(p):
 
                                 if npz not in register["labelised"]:
                                     self.list_path_tracks_to_label.append(p)
-                                    self.list_id_tracks_to_label.append(npz)
+                                    self.list_npz_name_tracks_to_label.append(npz)
+                                    self.list_id_tracks_to_label.append(self.file)
 
+
+        #shuffle the list in the same order to keep corresponding indices
+        self.list_path_tracks_to_label,self.list_id_tracks_to_label,self.list_npz_name_tracks_to_label=shuffle_list(self.list_path_tracks_to_label,self.list_id_tracks_to_label,self.list_npz_name_tracks_to_label)
 
     def pick_a_new_track_to_label(self):
 
-        self.current_multitrack = Multitrack(self.list_path_tracks_to_label[0]+"/"+self.list_id_tracks_to_label[0])
+        logger.debug("*PICK A NEW TRACK TO LABEL*")
+        self.current_timestep=0
+
+        logger.debug("--current_timestep : "+ str(self.current_timestep))
+
+        self.current_multitrack = Multitrack(self.list_path_tracks_to_label[0]+"/"+self.list_npz_name_tracks_to_label[0])
+
+        logger.debug("--loaded a npz into a multitrack object")
         self.current_beat_resolution=self.current_multitrack.beat_resolution
+        logger.debug("--current beat resolution : " +str(self.current_beat_resolution))
+
         self.current_timestep_window = self.current_beat_resolution * self.beat_window_length * 4
+        logger.debug("--current time step window : "+str(self.current_timestep_window))
 
         self.current_track_id=self.list_id_tracks_to_label[0]
+        logger.debug("--current track id " +self.current_track_id)
+
         self.current_track_path=self.list_path_tracks_to_label[0]
+        logger.debug("--current track track path : "+self.current_track_path)
+
         self.current_track_length=len(self.current_multitrack.tracks[0].pianoroll)
+        logger.debug("--current_track_length : " + str(self.current_track_length))
+
         self.current_track = Track(pianoroll=self.current_multitrack.tracks[0].pianoroll,
                                 program=0, is_drum=True,
                                 name='current track to label')
+        logger.debug("--loaded multitrack into track object")
 
         self.label_array=np.zeros(self.current_track.pianoroll.shape[0])
+        logger.debug("--initialized label array")
+
         return self.current_track
 
 
     def save_label(self):
+        logger.debug("*SAVE LABEL()")
 
-        with load(self.PATH+'labels.npz') as data:
-            np.savez(self.PATH+'labels.npz', {str(self.current_track_id):self.label_array})
+        data=np.load(self.PATH+'labels.npz')
+        logger.debug("--loaded labels.npz into dictionnary")
+        logger.debug("--len of keys of dico "+str(len(data.keys())))
 
+        data[str(self.current_track_id)]=self.label_array
+        logger.debug("--added the new label array to the dictionnary")
+        logger.debug("--len of keys of dico with the added array =" + str(len(data.keys())))
+        np.savez(self.PATH+'labels.npz', **data)
+        logger.debug("--saved the dictionnary into labels.npz")
 
 
 
     def cliquer(self):
+        logger.debug("*CLIQUER()")
 
-        if self.current_timestep+self.current_timestep_window<self.current_track_length:
-            self.current_timestep+=self.current_timestep_window
+        label = self.var_choix.get()
+        logger.debug("--check the value of the form : "+ str(label))
 
-            if self.current_timestep+self.current_timestep_window<self.current_track_length:
-                end_extract=self.current_timestep+self.current_timestep_window
-            else:
-                end_extract=self.current_track_length
+        try:
+            label=int(label)
+        except:
+            pass
+        # in case user didn't fill the form --->warning
+        if label not in [0,1]:
+            self.warning="warning"
+            logger.debug("--/!\ the user didn't fill the form /!\ ")
 
-            print(end_extract-self.current_timestep,"DIFF")
-
-            extract = Track(pianoroll=self.current_track.pianoroll[self.current_timestep:end_extract],
-                                    program=0, is_drum=True,
-                                    name='my awesome piano')
-            extract_multi = Multitrack(tracks=[extract])
-            t = time.strftime("%Y%m%d_%H%M%S")
-
-            filepath = self.PATH+'temp/mid' + t + "_extract.mid"
-            ppr.write(extract_multi, filepath)
-            time1=time.time()
-            os.system("timidity " + filepath)
-            time2=time.time()
-            print("TIME",time2-time1)
-            self.label_array[self.current_timestep]=self.var_choix.get()
-            #os.remove(filepath)
 
         else:
-            self.pick_a_new_track_to_label()
+            self.warning="nowarning"
+
+            if self.current_timestep>0:
+                self.label_array[self.current_timestep:self.end_extract]=label
+                logger.debug("--fill the label_array with label")
+
+            # iterate overtimestep
+            if self.current_timestep+self.current_timestep_window<self.current_track_length:
+                self.current_timestep+=self.current_timestep_window
+                logger.debug("--case we can slide the timestep by one window ")
+                logger.debug("--new timestep : " + str(self.current_timestep))
+
+                if self.current_timestep+self.current_timestep_window<self.current_track_length:
+                    self.end_extract=self.current_timestep+self.current_timestep_window
+                    logger.debug("--case the length of the extract is one window ")
+                else:
+                    self.end_extract=self.current_track_length
+                    logger.debug("--case the length of the extract is shorter than one window, reaching the end of the track")
+
+                    logger.debug("--length of the extract :" +str(self.end_extract-self.current_timestep))
+
+                self.extract = Track(pianoroll=self.current_track.pianoroll[self.current_timestep:self.end_extract],
+                                        program=0, is_drum=True,
+                                        name='extract from timestep'+str(self.current_timestep)+" to timestep"+str(self.end_extract))
+                logger.debug("--loaded the extract into a track object")
+                self.extract_multi = Multitrack(tracks=[self.extract])
+
+                fig_x, fig_y = 100, 100
+                fig,ax=self.extract_multi.plot()
+                self.canvas.photo=draw_figure(self.canvas,fig,loc=(fig_x,fig_y))
+                logger.debug("--draw the pplot into canvas")
+
+
+                logger.debug("--loaded the track object into a multitrack object")
+                t = time.strftime("%Y%m%d_%H%M%S")
+
+                filepath = self.PATH+'temp/mid' + t + "_extract.mid"
+                ppr.write(self.extract_multi, filepath)
+                logger.debug("--wrote the extract to a midi temp file")
+                time1=time.time()
+                os.system("timidity " + filepath)
+                logger.debug("--played the midi file with timidity")
+                time2=time.time()
+                print("TIME",time2-time1)
+
+
+
+
+                #os.remove(filepath)
+            #or pick a new track if it's the end
+            else:
+                logger.debug("--we load a new track to label !!")
+                self.pick_a_new_track_to_label()
 
         print(self.current_timestep_window,"TIMESTEPWINDOW")
 
-        self.message["text"] = "Vous avez cliqué {} fois."+str(self.current_timestep)
 
-
+        self.champ_label = Label(self, text=self.dico_warning[self.warning][0], fg=self.dico_warning[self.warning][1])
+        logger.debug("--refreshed the warning info")
 
 
 fenetre = Tk()
