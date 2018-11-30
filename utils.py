@@ -39,3 +39,9 @@ def draw_figure(canvas, figure, loc=(0, 0)):
     # Return a handle which contains a reference to the photo object
     # which must be kept live or else the picture disappears
     return photo
+
+
+import os
+def touch(path):
+    with open(path, 'a'):
+        os.utime(path, None)

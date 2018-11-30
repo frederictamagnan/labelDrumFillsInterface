@@ -1841,3 +1841,1301 @@
 2018-11-30 16:46:53,305 :: DEBUG :: --wrote the extract to a midi temp file
 2018-11-30 16:47:02,340 :: DEBUG :: --played the midi file with timidity
 2018-11-30 16:47:02,342 :: DEBUG :: --refreshed the warning info
+2018-11-30 17:07:14,051 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 17:07:14,051 :: DEBUG :: --current_timestep : 0
+2018-11-30 17:07:14,054 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 17:07:14,054 :: DEBUG :: --current beat resolution : 24
+2018-11-30 17:07:14,054 :: DEBUG :: --current time step window : 96
+2018-11-30 17:07:14,054 :: DEBUG :: --current track id TROJMKE12903CEF307
+2018-11-30 17:07:14,054 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd/lpd_cleansed/O/J/M/TROJMKE12903CEF307
+2018-11-30 17:07:14,054 :: DEBUG :: --current_track_length : 384
+2018-11-30 17:07:14,054 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 17:07:14,054 :: DEBUG :: --initialized label array
+2018-11-30 17:10:45,657 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 17:10:45,657 :: DEBUG :: --current_timestep : 0
+2018-11-30 17:10:45,690 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 17:10:45,690 :: DEBUG :: --current beat resolution : 24
+2018-11-30 17:10:45,690 :: DEBUG :: --current time step window : 192
+2018-11-30 17:10:45,690 :: DEBUG :: --current track id TRVXJBQ128F4266040
+2018-11-30 17:10:45,690 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd/lpd_cleansed/V/X/J/TRVXJBQ128F4266040
+2018-11-30 17:10:45,691 :: DEBUG :: --current_track_length : 7008
+2018-11-30 17:10:45,691 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 17:10:45,691 :: DEBUG :: --initialized label array
+2018-11-30 17:10:54,557 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 17:10:54,557 :: DEBUG :: --current_timestep : 0
+2018-11-30 17:10:54,559 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 17:10:54,559 :: DEBUG :: --current beat resolution : 24
+2018-11-30 17:10:54,559 :: DEBUG :: --current time step window : 192
+2018-11-30 17:10:54,559 :: DEBUG :: --current track id TREWTYT128F935F736
+2018-11-30 17:10:54,559 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd/lpd_cleansed/E/W/T/TREWTYT128F935F736
+2018-11-30 17:10:54,559 :: DEBUG :: --current_track_length : 384
+2018-11-30 17:10:54,559 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 17:10:54,559 :: DEBUG :: --initialized label array
+2018-11-30 17:11:16,076 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 17:11:16,076 :: DEBUG :: --current_timestep : 0
+2018-11-30 17:11:16,078 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 17:11:16,079 :: DEBUG :: --current beat resolution : 24
+2018-11-30 17:11:16,079 :: DEBUG :: --current time step window : 96
+2018-11-30 17:11:16,079 :: DEBUG :: --current track id TRTTYTJ128F933FD8E
+2018-11-30 17:11:16,079 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd/lpd_cleansed/T/T/Y/TRTTYTJ128F933FD8E
+2018-11-30 17:11:16,079 :: DEBUG :: --current_track_length : 384
+2018-11-30 17:11:16,079 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 17:11:16,079 :: DEBUG :: --initialized label array
+2018-11-30 17:11:20,863 :: DEBUG :: *CLIQUER()
+2018-11-30 17:11:20,864 :: DEBUG :: --check the value of the form : 1
+2018-11-30 17:11:20,864 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 17:11:20,864 :: DEBUG :: --new timestep : 0
+2018-11-30 17:11:20,865 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 17:11:20,865 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 17:11:21,010 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 17:11:21,011 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 17:11:21,021 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 17:11:28,177 :: DEBUG :: --played the midi file with timidity
+2018-11-30 17:11:28,179 :: DEBUG :: --refreshed the warning info
+2018-11-30 17:11:30,284 :: DEBUG :: *CLIQUER()
+2018-11-30 17:11:30,285 :: DEBUG :: --check the value of the form : 1
+2018-11-30 17:11:30,285 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 17:11:30,286 :: DEBUG :: --new timestep : 96
+2018-11-30 17:11:30,286 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 17:11:30,287 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 17:11:30,414 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 17:11:30,415 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 17:11:30,417 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 17:11:37,084 :: DEBUG :: --played the midi file with timidity
+2018-11-30 17:11:37,086 :: DEBUG :: --refreshed the warning info
+2018-11-30 17:11:46,838 :: DEBUG :: *CLIQUER()
+2018-11-30 17:11:46,839 :: DEBUG :: --check the value of the form : 1
+2018-11-30 17:11:46,839 :: DEBUG :: --fill the label_array with label
+2018-11-30 17:11:46,840 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 17:11:46,840 :: DEBUG :: --new timestep : 192
+2018-11-30 17:11:46,840 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 17:11:46,841 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 17:11:46,962 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 17:11:46,962 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 17:11:46,964 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 17:11:53,643 :: DEBUG :: --played the midi file with timidity
+2018-11-30 17:11:53,646 :: DEBUG :: --refreshed the warning info
+2018-11-30 17:11:57,526 :: DEBUG :: *CLIQUER()
+2018-11-30 17:11:57,527 :: DEBUG :: --check the value of the form : 1
+2018-11-30 17:11:57,528 :: DEBUG :: --fill the label_array with label
+2018-11-30 17:11:57,528 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 17:11:57,528 :: DEBUG :: --new timestep : 288
+2018-11-30 17:11:57,528 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 17:11:57,529 :: DEBUG :: --length of the extract :96
+2018-11-30 17:11:57,529 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 17:11:57,657 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 17:11:57,657 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 17:11:57,660 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 17:12:04,335 :: DEBUG :: --played the midi file with timidity
+2018-11-30 17:12:04,337 :: DEBUG :: --refreshed the warning info
+2018-11-30 17:12:06,913 :: DEBUG :: *CLIQUER()
+2018-11-30 17:12:06,914 :: DEBUG :: --check the value of the form : 1
+2018-11-30 17:12:06,914 :: DEBUG :: --fill the label_array with label
+2018-11-30 17:12:06,915 :: DEBUG :: --we load a new track to label !!
+2018-11-30 17:12:06,915 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 17:12:06,915 :: DEBUG :: --current_timestep : 0
+2018-11-30 17:12:06,982 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 17:12:06,983 :: DEBUG :: --current beat resolution : 24
+2018-11-30 17:12:06,983 :: DEBUG :: --current time step window : 96
+2018-11-30 17:12:06,983 :: DEBUG :: --current track id TRTTYTJ128F933FD8E
+2018-11-30 17:12:06,983 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd/lpd_cleansed/T/T/Y/TRTTYTJ128F933FD8E
+2018-11-30 17:12:06,983 :: DEBUG :: --current_track_length : 14592
+2018-11-30 17:12:06,983 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 17:12:06,983 :: DEBUG :: --initialized label array
+2018-11-30 17:12:06,983 :: DEBUG :: --refreshed the warning info
+2018-11-30 17:12:15,885 :: DEBUG :: *CLIQUER()
+2018-11-30 17:12:15,885 :: DEBUG :: --check the value of the form : 1
+2018-11-30 17:12:15,886 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 17:12:15,886 :: DEBUG :: --new timestep : 96
+2018-11-30 17:12:15,886 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 17:12:15,887 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 17:12:16,016 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 17:12:16,016 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 17:12:16,018 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 17:12:17,088 :: DEBUG :: --played the midi file with timidity
+2018-11-30 17:12:17,089 :: DEBUG :: --refreshed the warning info
+2018-11-30 17:12:22,250 :: DEBUG :: *CLIQUER()
+2018-11-30 17:12:22,250 :: DEBUG :: --check the value of the form : 1
+2018-11-30 17:12:22,251 :: DEBUG :: --fill the label_array with label
+2018-11-30 17:12:22,251 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 17:12:22,251 :: DEBUG :: --new timestep : 192
+2018-11-30 17:12:22,252 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 17:12:22,252 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 17:12:22,370 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 17:12:22,370 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 17:12:22,372 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 17:12:26,356 :: DEBUG :: --played the midi file with timidity
+2018-11-30 17:12:26,358 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:00:12,104 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:00:12,105 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:00:12,108 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:00:12,108 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:00:12,108 :: DEBUG :: --current time step window : 96
+2018-11-30 18:00:12,108 :: DEBUG :: --current track id TRNLKET12903CAC7CD
+2018-11-30 18:00:12,108 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd/lpd_cleansed/N/L/K/TRNLKET12903CAC7CD
+2018-11-30 18:00:12,108 :: DEBUG :: --current_track_length : 384
+2018-11-30 18:00:12,108 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:00:12,108 :: DEBUG :: --initialized label array
+2018-11-30 18:00:16,634 :: DEBUG :: *CLIQUER()
+2018-11-30 18:00:16,635 :: DEBUG :: --check the value of the form : 
+2018-11-30 18:00:16,635 :: DEBUG :: --/!\ the user didn't fill the form /!\ 
+2018-11-30 18:00:16,636 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:00:20,609 :: DEBUG :: *CLIQUER()
+2018-11-30 18:00:20,610 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:00:20,611 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:00:20,611 :: DEBUG :: --new timestep : 0
+2018-11-30 18:00:20,612 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:00:20,612 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:00:20,761 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:00:20,761 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:00:20,765 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:00:28,026 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:00:28,028 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:17:19,690 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:17:19,691 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:17:19,696 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:17:19,696 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:17:19,696 :: DEBUG :: --current time step window : 384
+2018-11-30 18:17:19,696 :: DEBUG :: --current track id TRESLMZ12903CE9AD8
+2018-11-30 18:17:19,696 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/S/L/TRESLMZ12903CE9AD8
+2018-11-30 18:17:19,697 :: DEBUG :: --current_track_length : 384
+2018-11-30 18:17:19,697 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:17:19,698 :: DEBUG :: --initialized label array
+2018-11-30 18:17:24,013 :: DEBUG :: *CLIQUER()
+2018-11-30 18:17:24,014 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:17:24,014 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:17:24,015 :: DEBUG :: --new timestep : 0
+2018-11-30 18:17:24,015 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 18:17:24,015 :: DEBUG :: --length of the extract :384
+2018-11-30 18:17:24,016 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:17:24,365 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:17:24,366 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:17:24,373 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:17:37,531 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:17:37,531 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:17:40,479 :: DEBUG :: *CLIQUER()
+2018-11-30 18:17:40,480 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:17:40,480 :: DEBUG :: --we load a new track to label !!
+2018-11-30 18:17:40,481 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:17:40,481 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:17:40,519 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:17:40,520 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:17:40,520 :: DEBUG :: --current time step window : 384
+2018-11-30 18:17:40,520 :: DEBUG :: --current track id TRESLMZ12903CE9AD8
+2018-11-30 18:17:40,521 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/S/L/TRESLMZ12903CE9AD8
+2018-11-30 18:17:40,521 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:17:40,522 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:17:40,522 :: DEBUG :: --initialized label array
+2018-11-30 18:17:40,523 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:17:54,421 :: DEBUG :: *CLIQUER()
+2018-11-30 18:17:54,421 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:17:54,422 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:17:54,422 :: DEBUG :: --new timestep : 384
+2018-11-30 18:17:54,422 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:17:54,422 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:17:54,650 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:17:54,650 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:17:54,653 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:17:58,374 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:17:58,382 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:18:01,733 :: DEBUG :: *CLIQUER()
+2018-11-30 18:18:01,734 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:18:01,735 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:18:01,736 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:18:01,737 :: DEBUG :: --new timestep : 768
+2018-11-30 18:18:01,737 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:18:01,738 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:18:02,015 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:18:02,015 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:18:02,017 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:18:06,245 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:18:06,245 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:18:09,325 :: DEBUG :: *CLIQUER()
+2018-11-30 18:18:09,326 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:18:09,327 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:18:09,327 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:18:09,327 :: DEBUG :: --new timestep : 1152
+2018-11-30 18:18:09,328 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 18:18:09,328 :: DEBUG :: --length of the extract :384
+2018-11-30 18:18:09,329 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:18:09,635 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:18:09,636 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:18:09,638 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:18:11,895 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:18:11,897 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:18:16,533 :: DEBUG :: *CLIQUER()
+2018-11-30 18:18:16,534 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:18:16,535 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:18:16,535 :: DEBUG :: --we load a new track to label !!
+2018-11-30 18:18:16,536 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:18:16,536 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:18:16,547 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:18:16,548 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:18:16,548 :: DEBUG :: --current time step window : 384
+2018-11-30 18:18:16,548 :: DEBUG :: --current track id TRESLMZ12903CE9AD8
+2018-11-30 18:18:16,548 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/S/L/TRESLMZ12903CE9AD8
+2018-11-30 18:18:16,549 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:18:16,549 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:18:16,549 :: DEBUG :: --initialized label array
+2018-11-30 18:18:16,550 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:18:21,821 :: DEBUG :: *CLIQUER()
+2018-11-30 18:18:21,821 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:18:21,821 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:18:21,821 :: DEBUG :: --new timestep : 384
+2018-11-30 18:18:21,821 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:18:21,822 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:18:22,058 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:18:22,058 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:18:22,063 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:18:25,727 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:18:25,728 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:18:26,822 :: DEBUG :: *CLIQUER()
+2018-11-30 18:18:26,822 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:18:26,823 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:18:26,823 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:18:26,823 :: DEBUG :: --new timestep : 768
+2018-11-30 18:18:26,824 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:18:26,824 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:18:27,026 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:18:27,026 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:18:27,028 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:18:31,218 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:18:31,220 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:18:34,574 :: DEBUG :: *CLIQUER()
+2018-11-30 18:18:34,574 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:18:34,575 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:18:34,575 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:18:34,576 :: DEBUG :: --new timestep : 1152
+2018-11-30 18:18:34,576 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 18:18:34,577 :: DEBUG :: --length of the extract :384
+2018-11-30 18:18:34,578 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:18:34,773 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:18:34,773 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:18:34,777 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:18:37,010 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:18:37,013 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:18:39,606 :: DEBUG :: *CLIQUER()
+2018-11-30 18:18:39,607 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:18:39,613 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:18:39,614 :: DEBUG :: --we load a new track to label !!
+2018-11-30 18:18:39,615 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:18:39,615 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:18:39,632 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:18:39,633 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:18:39,634 :: DEBUG :: --current time step window : 384
+2018-11-30 18:18:39,634 :: DEBUG :: --current track id TRESLMZ12903CE9AD8
+2018-11-30 18:18:39,635 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/S/L/TRESLMZ12903CE9AD8
+2018-11-30 18:18:39,635 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:18:39,636 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:18:39,637 :: DEBUG :: --initialized label array
+2018-11-30 18:18:39,638 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:18:47,102 :: DEBUG :: *CLIQUER()
+2018-11-30 18:18:47,102 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:18:47,103 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:18:47,103 :: DEBUG :: --new timestep : 384
+2018-11-30 18:18:47,103 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:18:47,103 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:18:47,317 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:18:47,318 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:18:47,320 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:18:50,997 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:18:50,999 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:18:59,349 :: DEBUG :: *CLIQUER()
+2018-11-30 18:18:59,350 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:18:59,350 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:18:59,350 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:18:59,350 :: DEBUG :: --new timestep : 768
+2018-11-30 18:18:59,350 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:18:59,350 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:18:59,580 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:18:59,580 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:18:59,582 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:19:03,762 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:19:03,765 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:19:11,862 :: DEBUG :: *CLIQUER()
+2018-11-30 18:19:11,863 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:19:11,863 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:19:11,864 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:19:11,865 :: DEBUG :: --new timestep : 1152
+2018-11-30 18:19:11,866 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 18:19:11,866 :: DEBUG :: --length of the extract :384
+2018-11-30 18:19:11,866 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:19:12,088 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:19:12,088 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:19:12,092 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:19:14,336 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:19:14,338 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:19:31,639 :: DEBUG :: *CLIQUER()
+2018-11-30 18:19:31,640 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:19:31,640 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:19:31,640 :: DEBUG :: --we load a new track to label !!
+2018-11-30 18:19:31,641 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:19:31,641 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:19:31,650 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:19:31,650 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:19:31,650 :: DEBUG :: --current time step window : 384
+2018-11-30 18:19:31,651 :: DEBUG :: --current track id TRESLMZ12903CE9AD8
+2018-11-30 18:19:31,651 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/S/L/TRESLMZ12903CE9AD8
+2018-11-30 18:19:31,651 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:19:31,651 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:19:31,651 :: DEBUG :: --initialized label array
+2018-11-30 18:19:31,651 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:19:35,966 :: DEBUG :: *CLIQUER()
+2018-11-30 18:19:35,967 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:19:35,968 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:19:35,968 :: DEBUG :: --new timestep : 384
+2018-11-30 18:19:35,969 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:19:35,969 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:19:36,348 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:19:36,348 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:19:36,352 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:19:40,033 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:19:40,036 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:19:49,023 :: DEBUG :: *CLIQUER()
+2018-11-30 18:19:49,024 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:19:49,024 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:19:49,024 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:19:49,025 :: DEBUG :: --new timestep : 768
+2018-11-30 18:19:49,025 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:19:49,025 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:19:49,294 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:19:49,294 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:19:49,297 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:19:53,480 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:19:53,482 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:19:57,255 :: DEBUG :: *CLIQUER()
+2018-11-30 18:19:57,256 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:19:57,256 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:19:57,256 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:19:57,256 :: DEBUG :: --new timestep : 1152
+2018-11-30 18:19:57,256 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 18:19:57,256 :: DEBUG :: --length of the extract :384
+2018-11-30 18:19:57,256 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:19:57,490 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:19:57,490 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:19:57,492 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:19:59,796 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:19:59,797 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:20:07,991 :: DEBUG :: *CLIQUER()
+2018-11-30 18:20:07,991 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:20:07,992 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:20:07,993 :: DEBUG :: --we load a new track to label !!
+2018-11-30 18:20:07,993 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:20:07,993 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:20:08,009 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:20:08,009 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:20:08,010 :: DEBUG :: --current time step window : 384
+2018-11-30 18:20:08,010 :: DEBUG :: --current track id TRESLMZ12903CE9AD8
+2018-11-30 18:20:08,011 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/S/L/TRESLMZ12903CE9AD8
+2018-11-30 18:20:08,012 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:20:08,012 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:20:08,012 :: DEBUG :: --initialized label array
+2018-11-30 18:20:08,013 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:20:17,479 :: DEBUG :: *CLIQUER()
+2018-11-30 18:20:17,480 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:20:17,481 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:20:17,482 :: DEBUG :: --new timestep : 384
+2018-11-30 18:20:17,482 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:20:17,486 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:20:17,770 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:20:17,771 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:20:17,773 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:20:21,462 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:20:21,463 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:21:29,518 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:21:29,518 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:21:29,523 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:21:29,523 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:21:29,523 :: DEBUG :: --current time step window : 384
+2018-11-30 18:21:29,523 :: DEBUG :: --current track id TRFWIAE128F93326B5
+2018-11-30 18:21:29,523 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/F/W/I/TRFWIAE128F93326B5
+2018-11-30 18:21:29,523 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:21:29,523 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:21:29,523 :: DEBUG :: --initialized label array
+2018-11-30 18:21:38,152 :: DEBUG :: *CLIQUER()
+2018-11-30 18:21:38,153 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:21:38,154 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:21:38,155 :: DEBUG :: --new timestep : 0
+2018-11-30 18:21:38,156 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:21:38,157 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:21:38,466 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:21:38,466 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:21:38,472 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:21:49,745 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:21:49,746 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:21:52,248 :: DEBUG :: *CLIQUER()
+2018-11-30 18:21:52,249 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:21:52,257 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:21:52,257 :: DEBUG :: --new timestep : 384
+2018-11-30 18:21:52,258 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:21:52,259 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:21:52,538 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:21:52,538 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:21:52,552 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:22:04,267 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:22:04,269 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:22:05,608 :: DEBUG :: *CLIQUER()
+2018-11-30 18:22:05,609 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:22:05,609 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:22:05,610 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:22:05,610 :: DEBUG :: --new timestep : 768
+2018-11-30 18:22:05,610 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:22:05,611 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:22:05,891 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:22:05,891 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:22:05,903 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:22:18,348 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:22:18,350 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:22:20,616 :: DEBUG :: *CLIQUER()
+2018-11-30 18:22:20,617 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:22:20,617 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:22:20,617 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:22:20,618 :: DEBUG :: --new timestep : 1152
+2018-11-30 18:22:20,618 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 18:22:20,618 :: DEBUG :: --length of the extract :384
+2018-11-30 18:22:20,619 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:22:20,823 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:22:20,824 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:22:20,834 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:22:34,140 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:22:34,145 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:22:37,585 :: DEBUG :: *CLIQUER()
+2018-11-30 18:22:37,586 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:22:37,587 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:22:37,587 :: DEBUG :: --we load a new track to label !!
+2018-11-30 18:22:37,589 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:22:37,591 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:22:37,611 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:22:37,612 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:22:37,612 :: DEBUG :: --current time step window : 384
+2018-11-30 18:22:37,612 :: DEBUG :: --current track id TRFWIAE128F93326B5
+2018-11-30 18:22:37,613 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/F/W/I/TRFWIAE128F93326B5
+2018-11-30 18:22:37,613 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:22:37,613 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:22:37,614 :: DEBUG :: --initialized label array
+2018-11-30 18:22:37,614 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:22:40,920 :: DEBUG :: *CLIQUER()
+2018-11-30 18:22:40,920 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:22:40,921 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:22:40,921 :: DEBUG :: --new timestep : 384
+2018-11-30 18:22:40,921 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:22:40,921 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:22:41,117 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:22:41,117 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:22:41,129 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:22:52,937 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:22:52,940 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:26:01,519 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:26:01,519 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:26:01,531 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:26:01,531 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:26:01,532 :: DEBUG :: --current time step window : 384
+2018-11-30 18:26:01,532 :: DEBUG :: --current track id TRRRGET128F426655D
+2018-11-30 18:26:01,532 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/R/R/G/TRRRGET128F426655D
+2018-11-30 18:26:01,532 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:26:01,532 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:26:01,532 :: DEBUG :: --initialized label array
+2018-11-30 18:26:04,339 :: DEBUG :: *CLIQUER()
+2018-11-30 18:26:04,339 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:26:04,340 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:26:04,340 :: DEBUG :: --new timestep : 0
+2018-11-30 18:26:04,340 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:26:04,341 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:26:04,593 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:26:04,593 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:26:04,597 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:26:17,791 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:26:17,795 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:26:19,964 :: DEBUG :: *CLIQUER()
+2018-11-30 18:26:19,965 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:26:19,965 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:26:19,965 :: DEBUG :: --new timestep : 384
+2018-11-30 18:26:19,966 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:26:19,966 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:26:20,239 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:26:20,239 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:26:20,246 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:26:30,411 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:26:30,415 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:26:32,483 :: DEBUG :: *CLIQUER()
+2018-11-30 18:26:32,484 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:26:32,485 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:26:32,485 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:26:32,485 :: DEBUG :: --new timestep : 768
+2018-11-30 18:26:32,485 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:26:32,486 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:26:32,720 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:26:32,721 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:26:32,724 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:26:45,948 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:26:45,951 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:26:48,491 :: DEBUG :: *CLIQUER()
+2018-11-30 18:26:48,492 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:26:48,492 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:26:48,493 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:26:48,493 :: DEBUG :: --new timestep : 1152
+2018-11-30 18:26:48,493 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 18:26:48,494 :: DEBUG :: --length of the extract :384
+2018-11-30 18:26:48,494 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:26:48,775 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:26:48,776 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:26:48,779 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:26:58,663 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:26:58,664 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:27:13,907 :: DEBUG :: *CLIQUER()
+2018-11-30 18:27:13,907 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:27:13,908 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:27:13,908 :: DEBUG :: *SAVE LABEL()
+2018-11-30 18:30:53,902 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:30:53,902 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:30:53,913 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:30:53,913 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:30:53,913 :: DEBUG :: --current time step window : 384
+2018-11-30 18:30:53,913 :: DEBUG :: --current track id TRYAEJB12903CB1293
+2018-11-30 18:30:53,913 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/Y/A/E/TRYAEJB12903CB1293
+2018-11-30 18:30:53,914 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:30:53,914 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:30:53,914 :: DEBUG :: --initialized label array
+2018-11-30 18:30:56,886 :: DEBUG :: *CLIQUER()
+2018-11-30 18:30:56,887 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:30:56,888 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:30:56,889 :: DEBUG :: --new timestep : 0
+2018-11-30 18:30:56,889 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:30:56,890 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:30:57,175 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:30:57,176 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:30:57,179 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:30:58,288 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:30:58,290 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:31:03,246 :: DEBUG :: *CLIQUER()
+2018-11-30 18:31:03,246 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:31:03,246 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:31:03,246 :: DEBUG :: --new timestep : 384
+2018-11-30 18:31:03,247 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:31:03,247 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:31:03,448 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:31:03,448 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:31:03,453 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:31:09,929 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:31:09,930 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:31:12,142 :: DEBUG :: *CLIQUER()
+2018-11-30 18:31:12,142 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:31:12,143 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:31:12,143 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:31:12,144 :: DEBUG :: --new timestep : 768
+2018-11-30 18:31:12,144 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:31:12,144 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:31:12,337 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:31:12,337 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:31:12,345 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:31:22,601 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:31:22,603 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:31:24,550 :: DEBUG :: *CLIQUER()
+2018-11-30 18:31:24,551 :: DEBUG :: --check the value of the form : 0
+2018-11-30 18:31:24,552 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:31:24,552 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:31:24,552 :: DEBUG :: --new timestep : 1152
+2018-11-30 18:31:24,553 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 18:31:24,553 :: DEBUG :: --length of the extract :384
+2018-11-30 18:31:24,553 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:31:24,826 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:31:24,826 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:31:24,830 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:31:34,005 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:31:34,007 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:31:35,303 :: DEBUG :: *CLIQUER()
+2018-11-30 18:31:35,303 :: DEBUG :: --check the value of the form : 0
+2018-11-30 18:31:35,304 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:31:35,304 :: DEBUG :: *SAVE LABEL()
+2018-11-30 18:36:38,573 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:36:38,574 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:36:38,587 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:36:38,587 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:36:38,588 :: DEBUG :: --current time step window : 384
+2018-11-30 18:36:38,588 :: DEBUG :: --current track id TRLXSBJ128F42625D0
+2018-11-30 18:36:38,588 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/L/X/S/TRLXSBJ128F42625D0
+2018-11-30 18:36:38,588 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:36:38,588 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:36:38,589 :: DEBUG :: --initialized label array
+2018-11-30 18:36:41,690 :: DEBUG :: *CLIQUER()
+2018-11-30 18:36:41,691 :: DEBUG :: --check the value of the form : 
+2018-11-30 18:36:41,692 :: DEBUG :: --/!\ the user didn't fill the form /!\ 
+2018-11-30 18:36:41,695 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:36:43,666 :: DEBUG :: *CLIQUER()
+2018-11-30 18:36:43,667 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:36:43,667 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:36:43,667 :: DEBUG :: --new timestep : 0
+2018-11-30 18:36:43,668 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:36:43,668 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:36:43,978 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:36:43,978 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:36:43,984 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:36:52,992 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:36:52,995 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:36:54,722 :: DEBUG :: *CLIQUER()
+2018-11-30 18:36:54,723 :: DEBUG :: --check the value of the form : 0
+2018-11-30 18:36:54,724 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:36:54,724 :: DEBUG :: --new timestep : 384
+2018-11-30 18:36:54,725 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:36:54,727 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:36:55,013 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:36:55,014 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:36:55,020 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:37:05,182 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:37:05,182 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:37:07,666 :: DEBUG :: *CLIQUER()
+2018-11-30 18:37:07,667 :: DEBUG :: --check the value of the form : 0
+2018-11-30 18:37:07,667 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:37:07,667 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:37:07,667 :: DEBUG :: --new timestep : 768
+2018-11-30 18:37:07,667 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:37:07,667 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:37:07,901 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:37:07,901 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:37:07,909 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:37:18,055 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:37:18,055 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:37:28,810 :: DEBUG :: *CLIQUER()
+2018-11-30 18:37:28,812 :: DEBUG :: --check the value of the form : 0
+2018-11-30 18:37:28,813 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:37:28,814 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:37:28,814 :: DEBUG :: --new timestep : 1152
+2018-11-30 18:37:28,815 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 18:37:28,815 :: DEBUG :: --length of the extract :384
+2018-11-30 18:37:28,816 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:37:29,114 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:37:29,114 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:37:29,117 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:37:42,252 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:37:42,253 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:38:19,735 :: DEBUG :: *CLIQUER()
+2018-11-30 18:38:19,738 :: DEBUG :: --check the value of the form : 0
+2018-11-30 18:38:19,739 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:38:19,739 :: DEBUG :: *SAVE LABEL()
+2018-11-30 18:47:41,845 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:47:41,845 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:47:41,859 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:47:41,859 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:47:41,859 :: DEBUG :: --current time step window : 384
+2018-11-30 18:47:41,859 :: DEBUG :: --current track id TRJFTGQ128F14985B8
+2018-11-30 18:47:41,859 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/J/F/T/TRJFTGQ128F14985B8
+2018-11-30 18:47:41,859 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:47:41,859 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:47:41,859 :: DEBUG :: --initialized label array
+2018-11-30 18:47:46,079 :: DEBUG :: *CLIQUER()
+2018-11-30 18:47:46,079 :: DEBUG :: --check the value of the form : 0
+2018-11-30 18:47:46,079 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:47:46,079 :: DEBUG :: --new timestep : 0
+2018-11-30 18:47:46,079 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:47:46,079 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:47:46,387 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:47:46,388 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:47:46,393 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:47:56,654 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:47:56,656 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:47:58,126 :: DEBUG :: *CLIQUER()
+2018-11-30 18:47:58,127 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:47:58,128 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:47:58,128 :: DEBUG :: --new timestep : 384
+2018-11-30 18:47:58,129 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:47:58,130 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:47:58,291 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:47:58,291 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:47:58,298 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:48:11,437 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:48:11,439 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:48:14,249 :: DEBUG :: *CLIQUER()
+2018-11-30 18:48:14,250 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:48:14,251 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:48:14,251 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:48:14,251 :: DEBUG :: --new timestep : 768
+2018-11-30 18:48:14,252 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:48:14,252 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:48:14,423 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:48:14,423 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:48:14,431 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:48:27,519 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:48:27,521 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:48:32,725 :: DEBUG :: *CLIQUER()
+2018-11-30 18:48:32,725 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:48:32,725 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:48:32,725 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:48:32,725 :: DEBUG :: --new timestep : 1152
+2018-11-30 18:48:32,725 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 18:48:32,725 :: DEBUG :: --length of the extract :384
+2018-11-30 18:48:32,725 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:48:32,905 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:48:32,906 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:48:32,916 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:48:43,724 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:48:43,725 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:48:46,593 :: DEBUG :: *CLIQUER()
+2018-11-30 18:48:46,593 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:48:46,594 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:48:46,594 :: DEBUG :: *SAVE LABEL()
+2018-11-30 18:51:09,884 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:51:09,884 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:51:09,889 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:51:09,889 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:51:09,889 :: DEBUG :: --current time step window : 384
+2018-11-30 18:51:09,889 :: DEBUG :: --current track id TRRFHTJ128F9341EC2
+2018-11-30 18:51:09,889 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/R/F/H/TRRFHTJ128F9341EC2
+2018-11-30 18:51:09,889 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:51:09,889 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:51:09,889 :: DEBUG :: --initialized label array
+2018-11-30 18:51:13,262 :: DEBUG :: *CLIQUER()
+2018-11-30 18:51:13,263 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:51:13,263 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:51:13,264 :: DEBUG :: --new timestep : 0
+2018-11-30 18:51:13,264 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:51:13,264 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:51:13,445 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:51:13,445 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:51:13,452 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:51:24,743 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:51:24,745 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:51:26,878 :: DEBUG :: *CLIQUER()
+2018-11-30 18:51:26,878 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:51:26,878 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:51:26,878 :: DEBUG :: --new timestep : 384
+2018-11-30 18:51:26,878 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:51:26,878 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:51:27,054 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:51:27,055 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:51:27,061 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:51:37,841 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:51:37,842 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:51:40,812 :: DEBUG :: *CLIQUER()
+2018-11-30 18:51:40,812 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:51:40,812 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:51:40,812 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:51:40,813 :: DEBUG :: --new timestep : 768
+2018-11-30 18:51:40,813 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:51:40,813 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:51:40,997 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:51:40,997 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:51:41,004 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:51:51,761 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:51:51,763 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:51:52,821 :: DEBUG :: *CLIQUER()
+2018-11-30 18:51:52,821 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:51:52,822 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:51:52,822 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:51:52,822 :: DEBUG :: --new timestep : 1152
+2018-11-30 18:51:52,822 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 18:51:52,822 :: DEBUG :: --length of the extract :384
+2018-11-30 18:51:52,822 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:51:52,961 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:51:52,961 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:51:52,966 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:52:06,084 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:52:06,085 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:52:07,726 :: DEBUG :: *CLIQUER()
+2018-11-30 18:52:07,727 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:52:07,728 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:52:07,728 :: DEBUG :: *SAVE LABEL()
+2018-11-30 18:53:41,944 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 18:53:41,945 :: DEBUG :: --current_timestep : 0
+2018-11-30 18:53:41,947 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 18:53:41,947 :: DEBUG :: --current beat resolution : 24
+2018-11-30 18:53:41,947 :: DEBUG :: --current time step window : 384
+2018-11-30 18:53:41,947 :: DEBUG :: --current track id TRJWATS128F42A026E
+2018-11-30 18:53:41,947 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/J/W/A/TRJWATS128F42A026E
+2018-11-30 18:53:41,947 :: DEBUG :: --current_track_length : 1536
+2018-11-30 18:53:41,948 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 18:53:41,948 :: DEBUG :: --initialized label array
+2018-11-30 18:53:44,552 :: DEBUG :: *CLIQUER()
+2018-11-30 18:53:44,553 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:53:44,553 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:53:44,554 :: DEBUG :: --new timestep : 0
+2018-11-30 18:53:44,554 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:53:44,554 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:53:44,732 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:53:44,732 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:53:44,738 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:53:53,437 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:53:53,438 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:53:54,536 :: DEBUG :: *CLIQUER()
+2018-11-30 18:53:54,537 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:53:54,537 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:53:54,538 :: DEBUG :: --new timestep : 384
+2018-11-30 18:53:54,538 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:53:54,539 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:53:54,704 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:53:54,704 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:53:54,712 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:54:05,391 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:54:05,393 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:54:07,273 :: DEBUG :: *CLIQUER()
+2018-11-30 18:54:07,273 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:54:07,274 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:54:07,274 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:54:07,275 :: DEBUG :: --new timestep : 768
+2018-11-30 18:54:07,275 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 18:54:07,276 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:54:07,444 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:54:07,444 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:54:07,450 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:54:20,171 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:54:20,172 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:54:20,856 :: DEBUG :: *CLIQUER()
+2018-11-30 18:54:20,857 :: DEBUG :: --check the value of the form : 1
+2018-11-30 18:54:20,858 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:54:20,858 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 18:54:20,858 :: DEBUG :: --new timestep : 1152
+2018-11-30 18:54:20,858 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 18:54:20,859 :: DEBUG :: --length of the extract :384
+2018-11-30 18:54:20,859 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 18:54:21,014 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 18:54:21,015 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 18:54:21,020 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 18:54:33,678 :: DEBUG :: --played the midi file with timidity
+2018-11-30 18:54:33,679 :: DEBUG :: --refreshed the warning info
+2018-11-30 18:54:35,385 :: DEBUG :: *CLIQUER()
+2018-11-30 18:54:35,386 :: DEBUG :: --check the value of the form : 0
+2018-11-30 18:54:35,386 :: DEBUG :: --fill the label_array with label
+2018-11-30 18:54:35,387 :: DEBUG :: *SAVE LABEL()
+2018-11-30 18:54:35,388 :: DEBUG :: --loaded labels.npz into dictionnary
+2018-11-30 18:54:35,389 :: DEBUG :: --len of keys of dico 1
+2018-11-30 19:00:31,256 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 19:00:31,256 :: DEBUG :: --current_timestep : 0
+2018-11-30 19:00:31,259 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 19:00:31,259 :: DEBUG :: --current beat resolution : 24
+2018-11-30 19:00:31,259 :: DEBUG :: --current time step window : 384
+2018-11-30 19:00:31,259 :: DEBUG :: --current track id TRYPHLC128F935EAA5
+2018-11-30 19:00:31,259 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/Y/P/H/TRYPHLC128F935EAA5
+2018-11-30 19:00:31,260 :: DEBUG :: --current_track_length : 1536
+2018-11-30 19:00:31,260 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 19:00:31,260 :: DEBUG :: --initialized label array
+2018-11-30 19:00:33,797 :: DEBUG :: *CLIQUER()
+2018-11-30 19:00:33,797 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:00:33,797 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:00:33,798 :: DEBUG :: --new timestep : 0
+2018-11-30 19:00:33,798 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:00:33,798 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:00:34,037 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:00:34,037 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:00:34,051 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:00:43,784 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:00:43,785 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:00:55,181 :: DEBUG :: *CLIQUER()
+2018-11-30 19:00:55,182 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:00:55,182 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:00:55,182 :: DEBUG :: --new timestep : 384
+2018-11-30 19:00:55,182 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:00:55,182 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:00:55,335 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:00:55,335 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:00:55,347 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:01:06,069 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:01:06,070 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:01:09,701 :: DEBUG :: *CLIQUER()
+2018-11-30 19:01:09,701 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:01:09,701 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:01:09,701 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:01:09,701 :: DEBUG :: --new timestep : 768
+2018-11-30 19:01:09,701 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:01:09,702 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:01:09,854 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:01:09,854 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:01:09,867 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:01:22,590 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:01:22,592 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:01:25,182 :: DEBUG :: *CLIQUER()
+2018-11-30 19:01:25,183 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:01:25,184 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:01:25,184 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:01:25,184 :: DEBUG :: --new timestep : 1152
+2018-11-30 19:01:25,185 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 19:01:25,185 :: DEBUG :: --length of the extract :384
+2018-11-30 19:01:25,185 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:01:25,350 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:01:25,350 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:01:25,366 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:01:37,649 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:01:37,652 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:01:41,375 :: DEBUG :: *CLIQUER()
+2018-11-30 19:01:41,376 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:01:41,376 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:01:41,376 :: DEBUG :: *SAVE LABEL()
+2018-11-30 19:01:41,381 :: DEBUG :: --loaded labels.npz into dictionnary
+2018-11-30 19:01:41,381 :: DEBUG :: --len of keys of dico 1
+2018-11-30 19:01:41,382 :: DEBUG :: --added the new label array to the dictionnary
+2018-11-30 19:01:41,382 :: DEBUG :: --len of keys of dico with the added array =2
+2018-11-30 19:01:41,394 :: DEBUG :: --saved the dictionnary into labels.npz
+2018-11-30 19:08:03,001 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 19:08:03,003 :: DEBUG :: --current_timestep : 0
+2018-11-30 19:08:03,006 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 19:08:03,006 :: DEBUG :: --current beat resolution : 24
+2018-11-30 19:08:03,007 :: DEBUG :: --current time step window : 384
+2018-11-30 19:08:03,007 :: DEBUG :: --current track id TRRRGET128F426655D
+2018-11-30 19:08:03,007 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/R/R/G/TRRRGET128F426655D
+2018-11-30 19:08:03,007 :: DEBUG :: --current_track_length : 1536
+2018-11-30 19:08:03,007 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 19:08:03,007 :: DEBUG :: --initialized label array
+2018-11-30 19:08:06,179 :: DEBUG :: *CLIQUER()
+2018-11-30 19:08:06,180 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:08:06,180 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:08:06,180 :: DEBUG :: --new timestep : 0
+2018-11-30 19:08:06,181 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:08:06,181 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:08:06,415 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:08:06,415 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:08:06,420 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:08:19,742 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:08:19,745 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:08:20,900 :: DEBUG :: *CLIQUER()
+2018-11-30 19:08:20,900 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:08:20,901 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:08:20,901 :: DEBUG :: --new timestep : 384
+2018-11-30 19:08:20,901 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:08:20,902 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:08:21,069 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:08:21,069 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:08:21,072 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:08:31,245 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:08:31,246 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:08:31,930 :: DEBUG :: *CLIQUER()
+2018-11-30 19:08:31,930 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:08:31,931 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:08:31,931 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:08:31,931 :: DEBUG :: --new timestep : 768
+2018-11-30 19:08:31,931 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:08:31,931 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:08:32,100 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:08:32,100 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:08:32,103 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:08:45,291 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:08:45,292 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:08:45,851 :: DEBUG :: *CLIQUER()
+2018-11-30 19:08:45,851 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:08:45,852 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:08:45,852 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:08:45,852 :: DEBUG :: --new timestep : 1152
+2018-11-30 19:08:45,852 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 19:08:45,852 :: DEBUG :: --length of the extract :384
+2018-11-30 19:08:45,853 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:08:46,009 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:08:46,010 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:08:46,011 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:08:55,872 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:08:55,874 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:08:59,243 :: DEBUG :: *CLIQUER()
+2018-11-30 19:08:59,244 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:08:59,244 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:08:59,245 :: DEBUG :: *SAVE LABEL()
+2018-11-30 19:08:59,249 :: DEBUG :: --loaded labels.npz into dictionnary
+2018-11-30 19:08:59,249 :: DEBUG :: --len of keys of dico 1
+2018-11-30 19:08:59,249 :: DEBUG :: --added the new label array to the dictionnary
+2018-11-30 19:08:59,250 :: DEBUG :: --len of keys of dico with the added array =2
+2018-11-30 19:08:59,261 :: DEBUG :: --saved the dictionnary into labels.npz
+2018-11-30 19:10:37,995 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 19:10:37,995 :: DEBUG :: --current_timestep : 0
+2018-11-30 19:10:38,000 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 19:10:38,000 :: DEBUG :: --current beat resolution : 24
+2018-11-30 19:10:38,000 :: DEBUG :: --current time step window : 384
+2018-11-30 19:10:38,000 :: DEBUG :: --current track id TRYACAK128F427FBDD
+2018-11-30 19:10:38,000 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/Y/A/C/TRYACAK128F427FBDD
+2018-11-30 19:10:38,000 :: DEBUG :: --current_track_length : 1536
+2018-11-30 19:10:38,000 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 19:10:38,000 :: DEBUG :: --initialized label array
+2018-11-30 19:10:40,653 :: DEBUG :: *CLIQUER()
+2018-11-30 19:10:40,653 :: DEBUG :: --check the value of the form : 0
+2018-11-30 19:10:40,654 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:10:40,654 :: DEBUG :: --new timestep : 0
+2018-11-30 19:10:40,654 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:10:40,655 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:10:40,831 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:10:40,831 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:10:40,848 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:10:53,104 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:10:53,107 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:10:55,301 :: DEBUG :: *CLIQUER()
+2018-11-30 19:10:55,302 :: DEBUG :: --check the value of the form : 0
+2018-11-30 19:10:55,302 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:10:55,303 :: DEBUG :: --new timestep : 384
+2018-11-30 19:10:55,303 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:10:55,303 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:10:55,468 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:10:55,468 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:10:55,486 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:11:07,714 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:11:07,716 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:11:09,285 :: DEBUG :: *CLIQUER()
+2018-11-30 19:11:09,285 :: DEBUG :: --check the value of the form : 0
+2018-11-30 19:11:09,285 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:11:09,285 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:11:09,285 :: DEBUG :: --new timestep : 768
+2018-11-30 19:11:09,285 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:11:09,286 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:11:09,437 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:11:09,437 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:11:09,447 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:11:20,081 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:11:20,083 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:11:22,101 :: DEBUG :: *CLIQUER()
+2018-11-30 19:11:22,102 :: DEBUG :: --check the value of the form : 0
+2018-11-30 19:11:22,103 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:11:22,103 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:11:22,103 :: DEBUG :: --new timestep : 1152
+2018-11-30 19:11:22,104 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 19:11:22,104 :: DEBUG :: --length of the extract :384
+2018-11-30 19:11:22,105 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:11:22,272 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:11:22,272 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:11:22,281 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:11:32,922 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:11:32,923 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:11:34,492 :: DEBUG :: *CLIQUER()
+2018-11-30 19:11:34,493 :: DEBUG :: --check the value of the form : 0
+2018-11-30 19:11:34,493 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:11:34,493 :: DEBUG :: *SAVE LABEL()
+2018-11-30 19:11:34,496 :: DEBUG :: --loaded labels.npz into dictionnary
+2018-11-30 19:11:34,496 :: DEBUG :: --len of keys of dico 2
+2018-11-30 19:11:34,497 :: DEBUG :: --added the new label array to the dictionnary
+2018-11-30 19:11:34,497 :: DEBUG :: --len of keys of dico with the added array =3
+2018-11-30 19:11:34,506 :: DEBUG :: --saved the dictionnary into labels.npz
+2018-11-30 19:14:08,993 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 19:14:08,993 :: DEBUG :: --current_timestep : 0
+2018-11-30 19:14:09,004 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 19:14:09,004 :: DEBUG :: --current beat resolution : 24
+2018-11-30 19:14:09,004 :: DEBUG :: --current time step window : 384
+2018-11-30 19:14:09,004 :: DEBUG :: --current track id TRLJCSC12903C991F0
+2018-11-30 19:14:09,004 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/L/J/C/TRLJCSC12903C991F0
+2018-11-30 19:14:09,004 :: DEBUG :: --current_track_length : 1536
+2018-11-30 19:14:09,004 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 19:14:09,004 :: DEBUG :: --initialized label array
+2018-11-30 19:14:11,824 :: DEBUG :: *CLIQUER()
+2018-11-30 19:14:11,824 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:14:11,825 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:14:11,825 :: DEBUG :: --new timestep : 0
+2018-11-30 19:14:11,825 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:14:11,826 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:14:12,007 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:14:12,007 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:14:12,016 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:14:23,148 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:14:23,150 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:14:24,535 :: DEBUG :: *CLIQUER()
+2018-11-30 19:14:24,535 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:14:24,535 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:14:24,535 :: DEBUG :: --new timestep : 384
+2018-11-30 19:14:24,536 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:14:24,536 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:14:24,686 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:14:24,687 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:14:24,695 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:14:37,803 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:14:37,804 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:14:38,624 :: DEBUG :: *CLIQUER()
+2018-11-30 19:14:38,625 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:14:38,625 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:14:38,625 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:14:38,626 :: DEBUG :: --new timestep : 768
+2018-11-30 19:14:38,626 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:14:38,627 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:14:38,795 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:14:38,795 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:14:38,802 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:14:49,517 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:14:49,519 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:14:50,128 :: DEBUG :: *CLIQUER()
+2018-11-30 19:14:50,128 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:14:50,129 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:14:50,129 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:14:50,130 :: DEBUG :: --new timestep : 1152
+2018-11-30 19:14:50,130 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 19:14:50,130 :: DEBUG :: --length of the extract :384
+2018-11-30 19:14:50,131 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:14:50,294 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:14:50,294 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:14:50,301 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:15:03,461 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:15:03,463 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:15:04,392 :: DEBUG :: *CLIQUER()
+2018-11-30 19:15:04,393 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:15:04,393 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:15:04,394 :: DEBUG :: *SAVE LABEL()
+2018-11-30 19:15:04,402 :: DEBUG :: --loaded labels.npz into dictionnary
+2018-11-30 19:15:04,402 :: DEBUG :: --len of keys of dico 3
+2018-11-30 19:15:04,403 :: DEBUG :: --added the new label array to the dictionnary
+2018-11-30 19:15:04,403 :: DEBUG :: --len of keys of dico with the added array =4
+2018-11-30 19:15:04,418 :: DEBUG :: --saved the dictionnary into labels.npz
+2018-11-30 19:21:01,837 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 19:21:01,837 :: DEBUG :: --current_timestep : 0
+2018-11-30 19:21:01,848 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 19:21:01,849 :: DEBUG :: --current beat resolution : 24
+2018-11-30 19:21:01,849 :: DEBUG :: --current time step window : 384
+2018-11-30 19:21:01,849 :: DEBUG :: --current track id TRTFHVM128F932C7E9
+2018-11-30 19:21:01,849 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/T/F/H/TRTFHVM128F932C7E9
+2018-11-30 19:21:01,849 :: DEBUG :: --current_track_length : 1536
+2018-11-30 19:21:01,849 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 19:21:01,849 :: DEBUG :: --initialized label array
+2018-11-30 19:21:05,140 :: DEBUG :: *CLIQUER()
+2018-11-30 19:21:05,141 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:21:05,141 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:21:05,142 :: DEBUG :: --new timestep : 0
+2018-11-30 19:21:05,142 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:21:05,142 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:21:05,319 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:21:05,319 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:21:05,321 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:21:09,588 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:21:09,590 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:21:10,756 :: DEBUG :: *CLIQUER()
+2018-11-30 19:21:10,757 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:21:10,757 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:21:10,757 :: DEBUG :: --new timestep : 384
+2018-11-30 19:21:10,758 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:21:10,758 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:21:10,929 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:21:10,930 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:21:10,932 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:21:21,131 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:21:21,133 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:21:21,876 :: DEBUG :: *CLIQUER()
+2018-11-30 19:21:21,877 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:21:21,878 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:21:21,878 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:21:21,878 :: DEBUG :: --new timestep : 768
+2018-11-30 19:21:21,879 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:21:21,879 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:21:22,046 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:21:22,046 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:21:22,049 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:21:32,242 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:21:32,244 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:21:38,917 :: DEBUG :: *CLIQUER()
+2018-11-30 19:21:38,918 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:21:38,918 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:21:38,919 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:21:38,919 :: DEBUG :: --new timestep : 1152
+2018-11-30 19:21:38,920 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 19:21:38,920 :: DEBUG :: --length of the extract :384
+2018-11-30 19:21:38,921 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:21:39,087 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:21:39,087 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:21:39,089 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:21:49,341 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:21:49,343 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:22:07,061 :: DEBUG :: *CLIQUER()
+2018-11-30 19:22:07,062 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:22:07,062 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:22:07,062 :: DEBUG :: *SAVE LABEL()
+2018-11-30 19:22:07,071 :: DEBUG :: --loaded labels.npz into dictionnary
+2018-11-30 19:22:07,071 :: DEBUG :: --len of keys of dico 4
+2018-11-30 19:22:07,071 :: DEBUG :: --added the new label array to the dictionnary
+2018-11-30 19:22:07,072 :: DEBUG :: --len of keys of dico with the added array =5
+2018-11-30 19:22:07,087 :: DEBUG :: --saved the dictionnary into labels.npz
+2018-11-30 19:23:06,179 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 19:23:06,179 :: DEBUG :: --current_timestep : 0
+2018-11-30 19:23:06,190 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 19:23:06,191 :: DEBUG :: --current beat resolution : 24
+2018-11-30 19:23:06,191 :: DEBUG :: --current time step window : 384
+2018-11-30 19:23:06,191 :: DEBUG :: --current track id TRJFDMQ128F93069DD
+2018-11-30 19:23:06,191 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/J/F/D/TRJFDMQ128F93069DD
+2018-11-30 19:23:06,191 :: DEBUG :: --current_track_length : 1536
+2018-11-30 19:23:06,191 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 19:23:06,191 :: DEBUG :: --initialized label array
+2018-11-30 19:23:08,846 :: DEBUG :: *CLIQUER()
+2018-11-30 19:23:08,847 :: DEBUG :: --check the value of the form : 1
+2018-11-30 19:23:08,847 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:23:08,848 :: DEBUG :: --new timestep : 0
+2018-11-30 19:23:08,848 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:23:08,848 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:23:09,027 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:23:09,028 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:23:09,029 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:23:10,225 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:23:10,227 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:23:13,293 :: DEBUG :: *CLIQUER()
+2018-11-30 19:23:13,294 :: DEBUG :: --check the value of the form : 0
+2018-11-30 19:23:13,294 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:23:13,294 :: DEBUG :: --new timestep : 384
+2018-11-30 19:23:13,294 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:23:13,295 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:23:13,455 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:23:13,455 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:23:13,459 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:23:21,960 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:23:21,961 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:23:23,166 :: DEBUG :: *CLIQUER()
+2018-11-30 19:23:23,167 :: DEBUG :: --check the value of the form : 0
+2018-11-30 19:23:23,167 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:23:23,168 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:23:23,168 :: DEBUG :: --new timestep : 768
+2018-11-30 19:23:23,168 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:23:23,169 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:23:23,333 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:23:23,333 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:23:23,337 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:23:33,512 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:23:33,513 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:23:34,869 :: DEBUG :: *CLIQUER()
+2018-11-30 19:23:34,869 :: DEBUG :: --check the value of the form : 0
+2018-11-30 19:23:34,870 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:23:34,870 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:23:34,870 :: DEBUG :: --new timestep : 1152
+2018-11-30 19:23:34,870 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-11-30 19:23:34,870 :: DEBUG :: --length of the extract :384
+2018-11-30 19:23:34,870 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:23:35,202 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:23:35,203 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:23:35,208 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:23:43,694 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:23:43,696 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:23:44,990 :: DEBUG :: *CLIQUER()
+2018-11-30 19:23:44,991 :: DEBUG :: --check the value of the form : 0
+2018-11-30 19:23:44,991 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:23:44,991 :: DEBUG :: *SAVE LABEL()
+2018-11-30 19:23:45,002 :: DEBUG :: --loaded labels.npz into dictionnary
+2018-11-30 19:23:45,002 :: DEBUG :: --len of keys of dico 5
+2018-11-30 19:23:45,003 :: DEBUG :: --added the new label array to the dictionnary
+2018-11-30 19:23:45,003 :: DEBUG :: --len of keys of dico with the added array =6
+2018-11-30 19:23:45,021 :: DEBUG :: --saved the dictionnary into labels.npz
+2018-11-30 19:23:45,022 :: DEBUG :: --we load a new track to label !!
+2018-11-30 19:23:45,022 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-11-30 19:23:45,022 :: DEBUG :: --current_timestep : 0
+2018-11-30 19:23:45,030 :: DEBUG :: --loaded a npz into a multitrack object
+2018-11-30 19:23:45,030 :: DEBUG :: --current beat resolution : 24
+2018-11-30 19:23:45,031 :: DEBUG :: --current time step window : 384
+2018-11-30 19:23:45,031 :: DEBUG :: --current track id TRJFDMQ128F93069DD
+2018-11-30 19:23:45,031 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/J/F/D/TRJFDMQ128F93069DD
+2018-11-30 19:23:45,031 :: DEBUG :: --current_track_length : 1536
+2018-11-30 19:23:45,031 :: DEBUG :: --loaded multitrack into track object
+2018-11-30 19:23:45,031 :: DEBUG :: --initialized label array
+2018-11-30 19:23:45,032 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:23:53,134 :: DEBUG :: *CLIQUER()
+2018-11-30 19:23:53,135 :: DEBUG :: --check the value of the form : 0
+2018-11-30 19:23:53,135 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:23:53,136 :: DEBUG :: --new timestep : 0
+2018-11-30 19:23:53,136 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:23:53,136 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:23:53,308 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:23:53,308 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:23:53,310 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:23:54,449 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:23:54,452 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:24:02,101 :: DEBUG :: *CLIQUER()
+2018-11-30 19:24:02,102 :: DEBUG :: --check the value of the form : 0
+2018-11-30 19:24:02,108 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:24:02,108 :: DEBUG :: --new timestep : 384
+2018-11-30 19:24:02,109 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:24:02,109 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:24:02,272 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:24:02,273 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:24:02,276 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:24:10,781 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:24:10,783 :: DEBUG :: --refreshed the warning info
+2018-11-30 19:24:11,574 :: DEBUG :: *CLIQUER()
+2018-11-30 19:24:11,575 :: DEBUG :: --check the value of the form : 0
+2018-11-30 19:24:11,575 :: DEBUG :: --fill the label_array with label
+2018-11-30 19:24:11,576 :: DEBUG :: --case we can slide the timestep by one window 
+2018-11-30 19:24:11,576 :: DEBUG :: --new timestep : 768
+2018-11-30 19:24:11,576 :: DEBUG :: --case the length of the extract is one window 
+2018-11-30 19:24:11,577 :: DEBUG :: --loaded the extract into a track object
+2018-11-30 19:24:11,740 :: DEBUG :: --draw the pplot into canvas
+2018-11-30 19:24:11,740 :: DEBUG :: --loaded the track object into a multitrack object
+2018-11-30 19:24:11,744 :: DEBUG :: --wrote the extract to a midi temp file
+2018-11-30 19:24:21,874 :: DEBUG :: --played the midi file with timidity
+2018-11-30 19:24:21,876 :: DEBUG :: --refreshed the warning info

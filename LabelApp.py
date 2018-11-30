@@ -10,7 +10,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 from utils import draw_figure
-
+from utils import touch
 
 # création de l'objet logger qui va nous servir à écrire dans les logs
 logger = logging.getLogger()
@@ -56,7 +56,7 @@ class LabelApp(Frame):
             './id_lists/tagtraum/tagtraum_Jazz.id',
         ]
 
-        self.PATH = '/home/ftamagna/Documents/_AcademiaSinica/dataset/lpd/lpd_cleansed/'
+        self.PATH = '/home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/'
         self.current_timestep = 0
         self.current_track_id = ""
         self.current_track = None
@@ -64,7 +64,7 @@ class LabelApp(Frame):
         self.current_multitrack = None
         self.current_track_length = 0
         self.current_beat_resolution = 0
-        self.beat_window_length = 2
+        self.beat_window_length = 4
         self.extract=None
         self.extract_multi=None
         self.end_extract=None
@@ -132,15 +132,21 @@ class LabelApp(Frame):
 
 
         if not(os.path.isfile(self.PATH+"register.json")):
-            register={"labelised":[]}
+            self.register={"labelised":[]}
             with open(self.PATH+"register.json", "w") as write_file:
-                json.dump(register, write_file)
+                json.dump(self.register, write_file)
+        else:
+            with open(self.PATH + "register.json", "w") as write_file:
+                self.register = dict(json.load(write_file))
+
+        if not (os.path.isfile(self.PATH + "labels.npz")):
+            np.savez(self.PATH+"labels.npz",empty=np.empty([2, 2]))
 
 
 
         self.define_list_npz_path_to_label()
         self.pick_a_new_track_to_label()
-        self.current_timestep -= self.current_timestep_window
+
 
     def define_list_npz_path_to_label(self):
 
@@ -217,14 +223,26 @@ class LabelApp(Frame):
 
         self.label_array=np.zeros(self.current_track.pianoroll.shape[0])
         logger.debug("--initialized label array")
-
+        self.current_timestep -= self.current_timestep_window
         return self.current_track
+
+
+
+
+
+
+
+
+
+
+
 
 
     def save_label(self):
         logger.debug("*SAVE LABEL()")
 
         data=np.load(self.PATH+'labels.npz')
+        data=dict(data)
         logger.debug("--loaded labels.npz into dictionnary")
         logger.debug("--len of keys of dico "+str(len(data.keys())))
 
@@ -233,6 +251,14 @@ class LabelApp(Frame):
         logger.debug("--len of keys of dico with the added array =" + str(len(data.keys())))
         np.savez(self.PATH+'labels.npz', **data)
         logger.debug("--saved the dictionnary into labels.npz")
+
+        with open(self.PATH+"register.json", "r+") as read_file:
+            liste_label=self.register["labelised"]
+            liste_label.append(self.current_track_id)
+            self.register["labelised"]=liste_label
+            json.dumps(self.register)
+
+
 
 
 
@@ -274,7 +300,7 @@ class LabelApp(Frame):
 
                     logger.debug("--length of the extract :" +str(self.end_extract-self.current_timestep))
 
-                self.extract = Track(pianoroll=self.current_track.pianoroll[self.current_timestep:self.end_extract],
+                self.extract = Track(pianoroll=self.current_track.pianoroll[self.current_timestep:self.end_extract,:],
                                         program=0, is_drum=True,
                                         name='extract from timestep'+str(self.current_timestep)+" to timestep"+str(self.end_extract))
                 logger.debug("--loaded the extract into a track object")
@@ -304,6 +330,7 @@ class LabelApp(Frame):
                 #os.remove(filepath)
             #or pick a new track if it's the end
             else:
+                self.save_label()
                 logger.debug("--we load a new track to label !!")
                 self.pick_a_new_track_to_label()
 
