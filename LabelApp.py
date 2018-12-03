@@ -54,7 +54,7 @@ class LabelApp(Frame):
     def __init__(self, fenetre, **kwargs):
 
         self.PATH_TAGS = [
-            './id_lists/tagtraum/tagtraum_Jazz.id',
+            './id_lists/tagtraum/tagtraum_Rock.id',
         ]
 
         self.PATH = '/home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/'
