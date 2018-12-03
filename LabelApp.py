@@ -36,6 +36,7 @@ stream_handler.setLevel(logging.DEBUG)
 logger.addHandler(stream_handler)
 
 
+import sys
 
 
 
@@ -65,12 +66,12 @@ class LabelApp(Frame):
         self.current_track_length = 0
         self.current_beat_resolution = 0
         self.beat_window_length = 4
-        self.extract=None
-        self.extract_multi=None
+
         self.end_extract=None
 
         self.label_array = None
         self.current_timestep_window=0
+        self.filepath_current_extract=""
 
 
 
@@ -87,15 +88,19 @@ class LabelApp(Frame):
 
         self.message.pack()
 
-        self.bouton_quitter = Button(self, text="Quitter", command=self.quit)
+        self.bouton_quitter = Button(self, text="Quit", command=self.quit)
 
         self.bouton_quitter.pack(side="left")
 
-        self.bouton_cliquer = Button(self, text="Cliquez ici", fg="red",
-
-                                     command=self.cliquer)
+        self.bouton_cliquer = Button(self, text="Next bar",command=self.cliquer)
 
         self.bouton_cliquer.pack(side="right")
+        # self.grid(row=1,column=4,columnspan=2)
+        self.button_listen_four_bar=Button(self,text="Listen to four bars",command=self.listen)
+        self.button_listen_four_bar.pack()
+
+        self.button_listen_current_extract = Button(self, text="ReListen current bar", command=self.listen_current_extract)
+        self.button_listen_current_extract.pack()
 
         self.var_choix = StringVar()
 
@@ -109,6 +114,12 @@ class LabelApp(Frame):
 
         self.warning="nowarning"
         self.dico_warning={"warning":["You have to choose a label option","red"],"nowarning":[":)","black"]}
+
+        self.button_info = Button(self, text="        ", height=2, width=20)
+        self.button_info.pack(side="bottom")
+
+
+
 
         self.champ_label = Label(self, text=self.dico_warning[self.warning][0],fg=self.dico_warning[self.warning][1])
 
@@ -136,12 +147,13 @@ class LabelApp(Frame):
             with open(self.PATH+"register.json", "w") as write_file:
                 json.dump(self.register, write_file)
         else:
-            with open(self.PATH + "register.json", "w") as write_file:
-                self.register = dict(json.load(write_file))
+            with open(self.PATH + "register.json", "r") as read_file:
+                self.register = dict(json.load(read_file))
 
         if not (os.path.isfile(self.PATH + "labels.npz")):
             np.savez(self.PATH+"labels.npz",empty=np.empty([2, 2]))
 
+        logger.debug("self.register "+str(self.register))
 
 
         self.define_list_npz_path_to_label()
@@ -152,7 +164,6 @@ class LabelApp(Frame):
 
         with open(self.PATH+"register.json", "r") as read_file:
             register = json.load(read_file)
-
 
 
 
@@ -182,7 +193,7 @@ class LabelApp(Frame):
 
                             for npz in os.listdir(p):
 
-                                if npz not in register["labelised"]:
+                                if self.file not in register["labelised"]:
                                     self.list_path_tracks_to_label.append(p)
                                     self.list_npz_name_tracks_to_label.append(npz)
                                     self.list_id_tracks_to_label.append(self.file)
@@ -191,8 +202,18 @@ class LabelApp(Frame):
         #shuffle the list in the same order to keep corresponding indices
         self.list_path_tracks_to_label,self.list_id_tracks_to_label,self.list_npz_name_tracks_to_label=shuffle_list(self.list_path_tracks_to_label,self.list_id_tracks_to_label,self.list_npz_name_tracks_to_label)
 
+        #CAST TUPLE TO LIST - SORRY TO do THAT LIKE THIS
+        self.list_npz_name_tracks_to_label=list(self.list_npz_name_tracks_to_label)
+        self.list_path_tracks_to_label=list(self.list_path_tracks_to_label)
+        self.list_id_tracks_to_label=list(self.list_id_tracks_to_label)
+
+
+
+        # sys.exit()
+
     def pick_a_new_track_to_label(self):
 
+        self.button_info["text"]="NEW TRACK IS PICKED"
         logger.debug("*PICK A NEW TRACK TO LABEL*")
         self.current_timestep=0
 
@@ -251,22 +272,37 @@ class LabelApp(Frame):
         logger.debug("--len of keys of dico with the added array =" + str(len(data.keys())))
         np.savez(self.PATH+'labels.npz', **data)
         logger.debug("--saved the dictionnary into labels.npz")
-
-        with open(self.PATH+"register.json", "r+") as read_file:
-            liste_label=self.register["labelised"]
-            liste_label.append(self.current_track_id)
-            self.register["labelised"]=liste_label
-            json.dumps(self.register)
+        logger.debug("-- NB of drum fills :"+str(self.label_array.sum()/self.current_timestep_window))
 
 
+        liste_label=self.register["labelised"]
+        liste_label.append(self.current_track_id)
+        logger.debug("--New list of labels : "+str(liste_label))
+        self.register["labelised"]=liste_label
+        logger.debug("self.register "+str(self.register))
+        with open(self.PATH+"register.json", 'w') as fp:
+            bol=json.dump(obj=self.register,fp=fp)
+        logger.debug("-- DUMPING JSON ???:"+str(bol))
+
+
+        # print(self.list_npz_name_tracks_to_label)
+        # print(self.list_path_tracks_to_label)
+        self.list_npz_name_tracks_to_label.pop(0)
+        self.list_id_tracks_to_label.pop(0)
+        self.list_path_tracks_to_label.pop(0)
+
+        self.bouton_cliquer["text"]="NEXT TRACK"
 
 
 
     def cliquer(self):
         logger.debug("*CLIQUER()")
+        self.button_info["text"]="LISTEN AND LABEL THE BAR !"
+
 
         label = self.var_choix.get()
         logger.debug("--check the value of the form : "+ str(label))
+        self.var_choix.set(None)
 
         try:
             label=int(label)
@@ -282,11 +318,14 @@ class LabelApp(Frame):
             self.warning="nowarning"
 
             if self.current_timestep>0:
+
                 self.label_array[self.current_timestep:self.end_extract]=label
                 logger.debug("--fill the label_array with label")
 
             # iterate overtimestep
             if self.current_timestep+self.current_timestep_window<self.current_track_length:
+                self.bouton_cliquer["text"] = "Next bar"
+
                 self.current_timestep+=self.current_timestep_window
                 logger.debug("--case we can slide the timestep by one window ")
                 logger.debug("--new timestep : " + str(self.current_timestep))
@@ -300,14 +339,14 @@ class LabelApp(Frame):
 
                     logger.debug("--length of the extract :" +str(self.end_extract-self.current_timestep))
 
-                self.extract = Track(pianoroll=self.current_track.pianoroll[self.current_timestep:self.end_extract,:],
+                extract = Track(pianoroll=self.current_track.pianoroll[self.current_timestep:self.end_extract,:],
                                         program=0, is_drum=True,
                                         name='extract from timestep'+str(self.current_timestep)+" to timestep"+str(self.end_extract))
                 logger.debug("--loaded the extract into a track object")
-                self.extract_multi = Multitrack(tracks=[self.extract])
+                extract_multi = Multitrack(tracks=[extract])
 
                 fig_x, fig_y = 100, 100
-                fig,ax=self.extract_multi.plot()
+                fig,ax=extract_multi.plot()
                 self.canvas.photo=draw_figure(self.canvas,fig,loc=(fig_x,fig_y))
                 logger.debug("--draw the pplot into canvas")
 
@@ -315,11 +354,11 @@ class LabelApp(Frame):
                 logger.debug("--loaded the track object into a multitrack object")
                 t = time.strftime("%Y%m%d_%H%M%S")
 
-                filepath = self.PATH+'temp/mid' + t + "_extract.mid"
-                ppr.write(self.extract_multi, filepath)
+                self.filepath_current_extract = self.PATH+'temp/mid' + t + "_extract.mid"
+                ppr.write(extract_multi, self.filepath_current_extract)
                 logger.debug("--wrote the extract to a midi temp file")
                 time1=time.time()
-                os.system("timidity " + filepath)
+                os.system("timidity " + self.filepath_current_extract)
                 logger.debug("--played the midi file with timidity")
                 time2=time.time()
                 print("TIME",time2-time1)
@@ -337,9 +376,51 @@ class LabelApp(Frame):
         print(self.current_timestep_window,"TIMESTEPWINDOW")
 
 
-        self.champ_label = Label(self, text=self.dico_warning[self.warning][0], fg=self.dico_warning[self.warning][1])
+        self.champ_label["text"]=self.dico_warning[self.warning][0]
+        self.champ_label["fg"]=self.dico_warning[self.warning][1]
         logger.debug("--refreshed the warning info")
 
+
+
+    def listen(self):
+
+        if self.current_timestep + 2*self.current_timestep_window < self.current_track_length:
+            end_extract = self.current_timestep + 2*self.current_timestep_window
+        else:
+            end_extract = self.current_track_length
+
+
+
+
+
+        if self.current_timestep - 2*self.current_timestep_window >0:
+            start_extract = self.current_timestep - 2*self.current_timestep_window
+        else:
+            start_extract = 0
+
+
+
+        extract = Track(pianoroll=self.current_track.pianoroll[start_extract:end_extract, :],
+                             program=0, is_drum=True,
+                             name='extract from timestep' + str(self.current_timestep) + " to timestep" + str(
+                                 self.end_extract))
+        extract_multi = Multitrack(tracks=[extract])
+
+
+
+        t = time.strftime("%Y%m%d_%H%M%S")
+
+        filepath = self.PATH + 'temp/mid' + t + "_extract.mid"
+        ppr.write(extract_multi, filepath)
+        time1 = time.time()
+        os.system("timidity " + filepath)
+
+
+    def listen_current_extract(self):
+        logger.debug("TIMIDITY CURRENT")
+
+        os.system("timidity " + self.filepath_current_extract)
+        logger.debug("TIMIDITY CURRENT")
 
 fenetre = Tk()
 

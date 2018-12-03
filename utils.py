@@ -1,11 +1,13 @@
 from random import shuffle
 
+from random import seed
 
 def shuffle_list(*ls):
-  l =list(zip(*ls))
+    seed(0)
+    l =list(zip(*ls))
 
-  shuffle(l)
-  return zip(*l)
+    shuffle(l)
+    return zip(*l)
 
 
 

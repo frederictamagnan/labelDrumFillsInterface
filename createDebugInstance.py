@@ -76,7 +76,7 @@ def crop_multitrack(multitrack):
     current_timestep_window = current_beat_resolution * beat_window_length * 4
 
 
-    current_track = Track(pianoroll=multitrack.tracks[0].pianoroll[0:current_timestep_window*4,:],
+    current_track = Track(pianoroll=multitrack.tracks[0].pianoroll[0:current_timestep_window*12,:],
                                program=0, is_drum=True,
                                name='current track to label')
 
