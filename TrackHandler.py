@@ -2,23 +2,27 @@
 from utils import draw_figure
 import pypianoroll as ppr
 from pypianoroll import Multitrack,Track
-
-
-BEAT_WINDOW_LENGTHS = 4
-
+import numpy as np
+import time
+from RuleHandler import RuleHandler
+import os
+BEAT_WINDOW_LENGTH = 4
 
 
 class TrackHandler:
 
 
-    def __init__(self,dataset,logger,findDrumFills):
-        
+
+
+
+    def __init__(self,dataset,logger):
+
+
         self.logger=logger
 
         self.dataset=dataset
 
         self.current_timestep=0
-        self.mainApp=findDrumFills
 
         self.current_timestep = 0
         self.current_track_id = ""
@@ -31,11 +35,13 @@ class TrackHandler:
 
         self.end_extract = None
 
+        self.label_set=False
+
+        self.ruleHandler = RuleHandler(self.logger)
 
 
     def pick_a_new_track_to_label(self):
 
-        self.mainApp.button_info["text"]="NEW TRACK IS PICKED"
         self.logger.debug("*PICK A NEW TRACK TO LABEL*")
         self.current_timestep=0
 
@@ -50,10 +56,10 @@ class TrackHandler:
         self.current_timestep_window = self.current_beat_resolution * self.beat_window_length * 4
         self.logger.debug("--current time step window : "+str(self.current_timestep_window))
 
-        self.current_track_id=self.list_id_tracks_to_label[0]
+        self.current_track_id=self.dataset.list_id_tracks_to_label[0]
         self.logger.debug("--current track id " +self.current_track_id)
 
-        self.current_track_path=self.list_path_tracks_to_label[0]
+        self.current_track_path=self.dataset.list_path_tracks_to_label[0]
         self.logger.debug("--current track track path : "+self.current_track_path)
 
         self.current_track_length=len(self.current_multitrack.tracks[0].pianoroll)
@@ -108,7 +114,7 @@ class TrackHandler:
 
         t = time.strftime("%Y%m%d_%H%M%S")
 
-        filepath = self.PATH + 'temp/mid' + t + "_extract.mid"
+        filepath = self.dataset.filepath_dataset + 'temp/mid' + t + "_extract.mid"
         ppr.write(extract_multi, filepath)
         time1 = time.time()
         os.system("timidity " + filepath)
@@ -128,7 +134,7 @@ class TrackHandler:
         self.logger.debug("--loaded the track object into a multitrack object")
         t = time.strftime("%Y%m%d_%H%M%S")
 
-        self.filepath_current_extract = self.PATH + 'temp/mid' + t + "_extract.mid"
+        self.filepath_current_extract = self.dataset.filepath_dataset + 'temp/mid' + t + "_extract.mid"
         ppr.write(extract_multi, self.filepath_current_extract)
         self.logger.debug("--wrote the extract to a midi temp file")
         time1 = time.time()
@@ -141,11 +147,13 @@ class TrackHandler:
     
     def nextBar(self):
 
-        self.current_timestep += self.current_timestep_window
+
+        self.label_set=False
+        #CASE WE HAVE REACH THE END OF THE TRACK
+
 
         # iterate overtimestep
         if self.current_timestep + self.current_timestep_window < self.current_track_length:
-            self.next_button["text"] = "Next bar"
 
             self.current_timestep += self.current_timestep_window
             self.logger.debug("--case we can slide the timestep by one window ")
@@ -168,25 +176,33 @@ class TrackHandler:
             self.logger.debug("--loaded the extract into a track object")
             extract_multi = Multitrack(tracks=[extract])
 
-            return extract,extract_multi
+            return extract,extract_multi,False
 
-
+        return 0, 0, True
 
     def iterate_over_bars(self):
 
         first_iteration=True
+        extract=None
+        extract_multi=None
+        while not(self.ruleHandler.isContainingDrumFills(extract,first_iteration)) :
 
-        while !self.ruleHandler.isContainingDrumFills(extract,first_iteration) and self.current_timestep+self.current_timestep_window<self.current_track_length:
+
+                self.logger.debug("--case we can slide the timestep by one window ")
+                self.logger.debug("--new timestep : " + str(self.current_timestep))
+                extract,extract_multi,reachTheEnd=self.nextBar()
+                if reachTheEnd:
+                    return 0,0,reachTheEnd
 
 
-                logger.debug("--case we can slide the timestep by one window ")
-                logger.debug("--new timestep : " + str(self.current_timestep))
-                extract,extract_multi=self.nextBar()
                 first_iteration=False
                 self.label_array[self.current_timestep:self.end_extract] = 0
 
 
-        if self.ruleHandler.isContainingDrumFills(extract,first_iteration):
-            return extract,extract_multi
-        else:
-            return None,None
+        return extract,extract_multi,False
+
+
+    def to_label(self,label):
+        self.label_array[self.current_timestep:self.end_extract] = label
+        self.label_set=True
+

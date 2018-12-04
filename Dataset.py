@@ -1,3 +1,7 @@
+import os
+import json
+from utils import shuffle_list
+import numpy as np
 
 class Dataset:
 
@@ -32,6 +36,8 @@ class Dataset:
         if not (os.path.isfile(self.filepath_dataset + "labels.npz")):
             np.savez(self.filepath_dataset+"labels.npz",empty=np.empty([2, 2]))
 
+        self.define_list_npz_path_to_label()
+
 
     def define_list_npz_path_to_label(self):
 
@@ -53,7 +59,7 @@ class Dataset:
                             #                 print('load files..{}/{}'.format(i + 1, number_files[tag_i]), end="\r")
                             self.file = file.rstrip()
                             self.middle = '/'.join(self.file[2:5]) + '/'
-                            p = self.filepath_datasetpat + self.middle + self.file
+                            p = self.filepath_dataset + self.middle + self.file
 
 
 
@@ -82,34 +88,34 @@ class Dataset:
         self.list_path_tracks_to_label.pop(0)
 
 
-    def save_label(self):
+    def save_label(self,trackHandler):
         """
         save_label and delete from the list of track to label the track whose label is saved
         :return:
         """
-        logger.debug("*SAVE LABEL()")
+        self.logger.debug("*SAVE LABEL()")
 
-        data=np.load(self.PATH+'labels.npz')
+        data=np.load(self.filepath_dataset+'labels.npz')
         data=dict(data)
-        logger.debug("--loaded labels.npz into dictionnary")
-        logger.debug("--len of keys of dico "+str(len(data.keys())))
+        self.logger.debug("--loaded labels.npz into dictionnary")
+        self.logger.debug("--len of keys of dico "+str(len(data.keys())))
 
-        data[str(self.current_track_id)]=self.label_array
-        logger.debug("--added the new label array to the dictionnary")
-        logger.debug("--len of keys of dico with the added array =" + str(len(data.keys())))
-        np.savez(self.PATH+'labels.npz', **data)
-        logger.debug("--saved the dictionnary into labels.npz")
-        logger.debug("-- NB of drum fills :"+str(self.label_array.sum()/self.current_timestep_window))
+        data[str(trackHandler.current_track_id)]=trackHandler.label_array
+        self.logger.debug("--added the new label array to the dictionnary")
+        self.logger.debug("--len of keys of dico with the added array =" + str(len(data.keys())))
+        np.savez(self.filepath_dataset+'labels.npz', **data)
+        self.logger.debug("--saved the dictionnary into labels.npz")
+        self.logger.debug("-- NB of drum fills :"+str(trackHandler.label_array.sum()/trackHandler.current_timestep_window))
 
 
         liste_label=self.register["labelised"]
-        liste_label.append(self.current_track_id)
-        logger.debug("--New list of labels : "+str(liste_label))
+        liste_label.append(trackHandler.current_track_id)
+        self.logger.debug("--New list of labels : "+str(liste_label))
         self.register["labelised"]=liste_label
-        logger.debug("self.register "+str(self.register))
+        self.logger.debug("self.register "+str(self.register))
         with open(self.filepath_dataset+"register.json", 'w') as fp:
             bol=json.dump(obj=self.register,fp=fp)
-        logger.debug("-- DUMPING JSON ???:"+str(bol))
+        self.logger.debug("-- DUMPING JSON ???:"+str(bol))
 
 
         # print(self.list_npz_name_tracks_to_label)

@@ -14,7 +14,7 @@ class RuleHandler():
 
     def isContainingDrumFills(self,extract,first_iteration):
         if first_iteration:
-            return True
+            return False
         else:
             return True
 

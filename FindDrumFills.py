@@ -1,18 +1,10 @@
 from tkinter import *
-import os
-import numpy as np
 
-import time
-from utils import shuffle_list
-import json
 import logging
 from logging.handlers import RotatingFileHandler
 
-from utils import draw_figure
 from Dataset import Dataset
 from TrackHandler import TrackHandler
-from RuleHandler import RuleHandler
-from utils import touch
 
 # création de l'objet logger qui va nous servir à écrire dans les logs
 logger = logging.getLogger()
@@ -38,12 +30,13 @@ stream_handler.setLevel(logging.DEBUG)
 logger.addHandler(stream_handler)
 
 
-import sys
 
 
 
-
-
+PATH = '/home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/'
+PATH_TAGS = [
+            './id_lists/tagtraum/tagtraum_Rock.id',
+        ]
 
 
 
@@ -55,22 +48,13 @@ class FindDrumFills(Frame):
 
     def __init__(self, fenetre, **kwargs):
 
-        self.PATH_TAGS = [
-            './id_lists/tagtraum/tagtraum_Rock.id',
-        ]
-
-        self.PATH = '/home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/'
 
 
-        self.dataset=Dataset(self.PATH,self.PATH_TAGS)
+        self.dataset = Dataset(filepath_dataset=PATH, filepath_tags=PATH_TAGS, logger=logger)
+        self.trackHandler = TrackHandler(dataset=self.dataset, logger=logger)
 
+        self.isTrackLoaded=False
 
-
-        self.label_array = None
-        self.current_timestep_window=0
-        self.filepath_current_extract=""
-
-        self.is_current_extract_labeled=False
 
 
 
@@ -85,20 +69,20 @@ class FindDrumFills(Frame):
 
         self.message.pack()
 
-        self.quit_button = Button(self, text="Quit", command=self.quit)
+        self.button_quit = Button(self, text="Quit", command=self.quit)
 
-        self.quit_button.pack(side="left")
+        self.button_quit.pack(side="left")
 
-        self.label_button=Button(self,text="Label it",command=self.to_label)
+        self.button_label=Button(self,text="Label it",command=self.to_label)
 
-        self.next_button = Button(self, text="Next Track",command=self.next)
+        self.button_label.pack()
+        self.button_next = Button(self, text="Next Track",command=self.next)
 
-        self.next_button.pack(side="right")
-        # self.grid(row=1,column=4,columnspan=2)
-        self.button_listen_four_bar=Button(self,text="Listen to four bars",command=self.listen)
+        self.button_next.pack(side="right")
+        self.button_listen_four_bar=Button(self,text="Listen to four bars",command=self.trackHandler.listen)
         self.button_listen_four_bar.pack()
 
-        self.button_listen_current_extract = Button(self, text="ReListen current bar", command=self.listen_current_extract)
+        self.button_listen_current_extract = Button(self, text="ReListen current bar", command=self.trackHandler.listen_current_extract)
         self.button_listen_current_extract.pack()
 
         self.var_choix = StringVar()
@@ -129,9 +113,7 @@ class FindDrumFills(Frame):
         self.canvas.pack()
 
 
-        self.ruleHandler=RuleHandler(logger)
-        self.dataset=Dataset(filepath_dataset=self.PATH,filepath_tags=self.PATH_TAGS,logger)
-        self.trackHandler=TrackHandler(dataset=self.dataset,logger)
+
 
 
 
@@ -144,71 +126,70 @@ class FindDrumFills(Frame):
         logger.debug("self.register "+str(self.register))
 
 
-        dataset.define_list_npz_path_to_label()
 
 
 
 
+    
 
 
     def next(self):
         """
-        define the next button to iterate over row or pick a new track
+        define the next button to iterate over bars or pick a new track
         :return:
         """
 
 
-        logger.debug("*NEXT()")
+        if not(self.isTrackLoaded):
+            self.trackHandler.pick_a_new_track_to_label()
+            self.button_info["text"]="A new track is loaded"
+            self.button_next["text"]="Next Bar"
+            self.isTrackLoaded=True
+            self.trackHandler.label_set=True
 
-        if self.current_timestep<0:
-            self.pick_a_new_track_to_label()
-            self.button_info["text"] = "A new track to label is picked"
-            self.next_button["text"] = "Next bar"
-            return None
-
-        elif self.can_iterate():
-
-            extract,extract_multi=self.iterate_over_bars()
-
-            self.plotBar(extract_multi)
-            self.listen_current_extract(extract_multi)
 
         else:
-            self.save_label()
 
 
+            if not(self.trackHandler.label_set):
+                self.button_info["text"]="You have to choose label"
+                return
+
+            self.reset_radio_button()
+
+            extract,extract_multi,reachTheEnd=self.trackHandler.iterate_over_bars()
+            if reachTheEnd:
+                self.button_info["text"] = "Reached the end of the track"
+                self.button_next["text"]="Next Track"
+                self.isTrackLoaded=False
+                self.dataset.save_label(trackHandler=self.trackHandler)
+
+            else:
+                self.trackHandler.plotBar(self.canvas,extract_multi)
+                self.trackHandler.playBar(extract_multi)
 
 
-
-        self.button_info["text"] = "LISTEN AND LABEL THE BAR !"
-
-
-    def can_iterate(self):
-        return self.can_iterate
-
-
-
-
-    def is_current_extract_labeled(self):
-
-        return self.is_current_extract_labeled
-
-    
     def reset_radio_button(self):
-        logger.debug("--check the value of the form : " + str(label))
         self.var_choix.set(None)
 
 
-    def to_label(self,label):
-        
-        self.label_array[self.current_timestep:self.end_extract] = label
+    def to_label(self):
+
+        label=self.var_choix.get()
+        if not (self.control_if_radio_button_is_checked(label)):
+            self.button_info["text"] = "the radio button isn't checked"
+            return
+
+
+        self.trackHandler.to_label(label)
         logger.debug("--fill the label_array with label")
+
         
         
         
     def control_if_radio_button_is_checked(self,label):
 
-        
+
         try:
             label = int(label)
         except:
@@ -222,40 +203,9 @@ class FindDrumFills(Frame):
             return True
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 fenetre = Tk()
-
-interface = LabelApp(fenetre)
-
-
-
+interface = FindDrumFills(fenetre)
 interface.mainloop()
-print(interface.label_array[0:interface.current_timestep],"LOOOL")
 interface.destroy()
 
 
