@@ -53,7 +53,7 @@ class TrackHandler:
         self.current_beat_resolution=self.current_multitrack.beat_resolution
         self.logger.debug("--current beat resolution : " +str(self.current_beat_resolution))
 
-        self.current_timestep_window = self.current_beat_resolution * self.beat_window_length * 4
+        self.current_timestep_window = self.current_beat_resolution * self.beat_window_length
         self.logger.debug("--current time step window : "+str(self.current_timestep_window))
 
         self.current_track_id=self.dataset.list_id_tracks_to_label[0]
@@ -62,7 +62,7 @@ class TrackHandler:
         self.current_track_path=self.dataset.list_path_tracks_to_label[0]
         self.logger.debug("--current track track path : "+self.current_track_path)
 
-        self.current_track_length=len(self.current_multitrack.tracks[0].pianoroll)
+        self.current_track_length=(self.current_multitrack.tracks[0].pianoroll.shape[0])
         self.logger.debug("--current_track_length : " + str(self.current_track_length))
 
         self.current_track = Track(pianoroll=self.current_multitrack.tracks[0].pianoroll,
@@ -70,7 +70,7 @@ class TrackHandler:
                                 name='current track to label')
         self.logger.debug("--loaded multitrack into track object")
 
-        self.label_array=np.full(self.current_track.pianoroll.shape[0],-1)
+        self.label_array=np.full(self.current_track.pianoroll.shape[0],0)
         self.logger.debug("--initialized label array")
         self.current_timestep -= self.current_timestep_window
 
@@ -196,7 +196,7 @@ class TrackHandler:
 
 
                 first_iteration=False
-                self.label_array[self.current_timestep:self.end_extract] = 0
+                #self.label_array[self.current_timestep:self.end_extract] = 0
 
 
         return extract,extract_multi,False

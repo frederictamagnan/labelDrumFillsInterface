@@ -1,0 +1,1994 @@
+2018-12-05 11:55:13,240 :: ERROR :: can't find register.json
+2018-12-05 11:58:43,047 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993']}
+2018-12-05 11:59:49,139 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993']}
+2018-12-05 11:59:57,228 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993']}
+2018-12-05 12:00:06,199 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993']}
+2018-12-05 12:00:06,202 :: DEBUG :: ---Find a labeled track
+2018-12-05 12:00:06,270 :: DEBUG :: ---Find a labeled track
+2018-12-05 12:00:54,311 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993']}
+2018-12-05 12:00:54,314 :: DEBUG :: ---Find a labeled track
+2018-12-05 12:00:54,316 :: DEBUG :: ---Find a labeled track
+2018-12-05 12:06:44,534 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993']}
+2018-12-05 12:06:44,536 :: DEBUG :: ---Find a labeled track
+2018-12-05 12:06:55,657 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993']}
+2018-12-05 12:06:55,659 :: DEBUG :: ---Find a labeled track
+2018-12-05 12:06:55,672 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:25:14,391 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993']}
+2018-12-05 13:25:14,394 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:25:14,400 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:25:36,088 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993']}
+2018-12-05 13:25:36,090 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:25:36,097 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:25:36,111 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 13:25:36,111 :: DEBUG :: --current_timestep : 0
+2018-12-05 13:25:36,111 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 13:25:36,112 :: DEBUG :: --current beat resolution : 24
+2018-12-05 13:25:36,112 :: DEBUG :: --current time step window : 96
+2018-12-05 13:25:36,112 :: DEBUG :: --current track id TRQZQFH128F9303993
+2018-12-05 13:25:36,112 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/Q/Z/Q/TRQZQFH128F9303993
+2018-12-05 13:25:36,112 :: DEBUG :: --current_track_length : 1536
+2018-12-05 13:25:51,677 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993']}
+2018-12-05 13:25:51,680 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:25:51,687 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:25:51,701 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 13:25:51,701 :: DEBUG :: --current_timestep : 0
+2018-12-05 13:25:51,701 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 13:25:51,701 :: DEBUG :: --current beat resolution : 24
+2018-12-05 13:25:51,701 :: DEBUG :: --current time step window : 96
+2018-12-05 13:25:51,702 :: DEBUG :: --current track id TRQZQFH128F9303993
+2018-12-05 13:25:51,702 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/Q/Z/Q/TRQZQFH128F9303993
+2018-12-05 13:25:51,702 :: DEBUG :: --current_track_length : 1536
+2018-12-05 13:25:51,702 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 13:25:51,702 :: DEBUG :: --initialized label array
+2018-12-05 13:25:51,702 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,702 :: DEBUG :: --new timestep : 0
+2018-12-05 13:25:51,702 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,702 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,702 :: DEBUG :: --new timestep : 96
+2018-12-05 13:25:51,702 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,702 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,702 :: DEBUG :: --new timestep : 192
+2018-12-05 13:25:51,702 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,702 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,703 :: DEBUG :: --new timestep : 288
+2018-12-05 13:25:51,703 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,703 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,703 :: DEBUG :: --new timestep : 384
+2018-12-05 13:25:51,703 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,703 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,703 :: DEBUG :: --new timestep : 480
+2018-12-05 13:25:51,703 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,703 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,703 :: DEBUG :: --new timestep : 576
+2018-12-05 13:25:51,703 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,703 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,703 :: DEBUG :: --new timestep : 672
+2018-12-05 13:25:51,703 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,704 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,704 :: DEBUG :: --new timestep : 768
+2018-12-05 13:25:51,704 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,704 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,704 :: DEBUG :: --new timestep : 864
+2018-12-05 13:25:51,704 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,704 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,704 :: DEBUG :: --new timestep : 960
+2018-12-05 13:25:51,704 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,704 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,704 :: DEBUG :: --new timestep : 1056
+2018-12-05 13:25:51,704 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,704 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,704 :: DEBUG :: --new timestep : 1152
+2018-12-05 13:25:51,704 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,705 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,705 :: DEBUG :: --new timestep : 1248
+2018-12-05 13:25:51,705 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,705 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,705 :: DEBUG :: --new timestep : 1344
+2018-12-05 13:25:51,705 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:25:51,705 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:25:51,705 :: DEBUG :: --new timestep : 1440
+2018-12-05 13:25:51,705 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 13:25:51,705 :: DEBUG :: --length of the extract :96
+2018-12-05 13:26:14,755 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993']}
+2018-12-05 13:26:14,757 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:26:14,764 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:26:14,779 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 13:26:14,779 :: DEBUG :: --current_timestep : 0
+2018-12-05 13:26:14,779 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 13:26:14,779 :: DEBUG :: --current beat resolution : 24
+2018-12-05 13:26:14,779 :: DEBUG :: --current time step window : 96
+2018-12-05 13:26:14,780 :: DEBUG :: --current track id TRQZQFH128F9303993
+2018-12-05 13:26:14,780 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/Q/Z/Q/TRQZQFH128F9303993
+2018-12-05 13:26:14,780 :: DEBUG :: --current_track_length : 1536
+2018-12-05 13:26:14,780 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 13:26:14,780 :: DEBUG :: --initialized label array
+2018-12-05 13:26:14,780 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,780 :: DEBUG :: --new timestep : 0
+2018-12-05 13:26:14,780 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,780 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,780 :: DEBUG :: --new timestep : 96
+2018-12-05 13:26:14,781 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,781 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,781 :: DEBUG :: --new timestep : 192
+2018-12-05 13:26:14,781 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,781 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,781 :: DEBUG :: --new timestep : 288
+2018-12-05 13:26:14,781 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,781 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,782 :: DEBUG :: --new timestep : 384
+2018-12-05 13:26:14,782 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,782 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,782 :: DEBUG :: --new timestep : 480
+2018-12-05 13:26:14,782 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,782 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,782 :: DEBUG :: --new timestep : 576
+2018-12-05 13:26:14,782 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,783 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,783 :: DEBUG :: --new timestep : 672
+2018-12-05 13:26:14,783 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,783 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,783 :: DEBUG :: --new timestep : 768
+2018-12-05 13:26:14,783 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,783 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,783 :: DEBUG :: --new timestep : 864
+2018-12-05 13:26:14,783 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,783 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,783 :: DEBUG :: --new timestep : 960
+2018-12-05 13:26:14,783 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,783 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,783 :: DEBUG :: --new timestep : 1056
+2018-12-05 13:26:14,783 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,784 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,784 :: DEBUG :: --new timestep : 1152
+2018-12-05 13:26:14,784 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,784 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,784 :: DEBUG :: --new timestep : 1248
+2018-12-05 13:26:14,784 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,784 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,784 :: DEBUG :: --new timestep : 1344
+2018-12-05 13:26:14,784 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:26:14,784 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:26:14,784 :: DEBUG :: --new timestep : 1440
+2018-12-05 13:26:14,784 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 13:26:14,784 :: DEBUG :: --length of the extract :96
+2018-12-05 13:38:40,366 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993', 'TREYVCP128F92F119E']}
+2018-12-05 13:38:40,366 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:38:40,373 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:38:40,379 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:38:40,394 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 13:38:40,394 :: DEBUG :: --current_timestep : 0
+2018-12-05 13:38:40,394 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 13:38:40,394 :: DEBUG :: --current beat resolution : 24
+2018-12-05 13:38:40,394 :: DEBUG :: --current time step window : 96
+2018-12-05 13:38:40,394 :: DEBUG :: --current track id TREYVCP128F92F119E
+2018-12-05 13:38:40,394 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/Y/V/TREYVCP128F92F119E
+2018-12-05 13:38:40,394 :: DEBUG :: --current_track_length : 384
+2018-12-05 13:38:40,394 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 13:38:40,394 :: DEBUG :: --initialized label array
+2018-12-05 13:38:40,394 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:38:40,394 :: DEBUG :: --new timestep : 0
+2018-12-05 13:38:40,394 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:38:40,395 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:38:40,395 :: DEBUG :: --new timestep : 96
+2018-12-05 13:38:40,395 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:38:40,395 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:38:40,395 :: DEBUG :: --new timestep : 192
+2018-12-05 13:38:40,395 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:38:40,395 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:38:40,395 :: DEBUG :: --new timestep : 288
+2018-12-05 13:38:40,395 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 13:38:40,395 :: DEBUG :: --length of the extract :96
+2018-12-05 13:38:40,395 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 13:38:40,395 :: DEBUG :: --current_timestep : 0
+2018-12-05 13:38:40,395 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 13:38:40,395 :: DEBUG :: --current beat resolution : 24
+2018-12-05 13:38:40,395 :: DEBUG :: --current time step window : 96
+2018-12-05 13:38:40,396 :: DEBUG :: --current track id TREYVCP128F92F119E
+2018-12-05 13:38:40,396 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/Y/V/TREYVCP128F92F119E
+2018-12-05 13:38:40,396 :: DEBUG :: --current_track_length : 384
+2018-12-05 13:38:40,396 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 13:38:40,396 :: DEBUG :: --initialized label array
+2018-12-05 13:38:40,396 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:38:40,396 :: DEBUG :: --new timestep : 0
+2018-12-05 13:38:40,396 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:38:40,396 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:38:40,396 :: DEBUG :: --new timestep : 96
+2018-12-05 13:38:40,396 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:38:40,396 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:38:40,396 :: DEBUG :: --new timestep : 192
+2018-12-05 13:38:40,396 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:38:40,397 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:38:40,397 :: DEBUG :: --new timestep : 288
+2018-12-05 13:38:40,397 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 13:38:40,397 :: DEBUG :: --length of the extract :96
+2018-12-05 13:39:04,831 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993', 'TREYVCP128F92F119E']}
+2018-12-05 13:39:04,832 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:39:04,839 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:39:04,844 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:39:04,865 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 13:39:04,865 :: DEBUG :: --current_timestep : 0
+2018-12-05 13:39:04,865 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 13:39:04,865 :: DEBUG :: --current beat resolution : 24
+2018-12-05 13:39:04,865 :: DEBUG :: --current time step window : 96
+2018-12-05 13:39:04,865 :: DEBUG :: --current track id TREYVCP128F92F119E
+2018-12-05 13:39:04,865 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/Y/V/TREYVCP128F92F119E
+2018-12-05 13:39:04,865 :: DEBUG :: --current_track_length : 384
+2018-12-05 13:39:04,865 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 13:39:04,865 :: DEBUG :: --initialized label array
+2018-12-05 13:39:04,866 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:04,866 :: DEBUG :: --new timestep : 0
+2018-12-05 13:39:04,866 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:04,866 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:04,866 :: DEBUG :: --new timestep : 96
+2018-12-05 13:39:04,866 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:04,866 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:04,866 :: DEBUG :: --new timestep : 192
+2018-12-05 13:39:04,866 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:04,867 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:04,867 :: DEBUG :: --new timestep : 288
+2018-12-05 13:39:04,867 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 13:39:04,867 :: DEBUG :: --length of the extract :96
+2018-12-05 13:39:04,867 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 13:39:04,867 :: DEBUG :: --current_timestep : 0
+2018-12-05 13:39:04,867 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 13:39:04,867 :: DEBUG :: --current beat resolution : 24
+2018-12-05 13:39:04,867 :: DEBUG :: --current time step window : 96
+2018-12-05 13:39:04,867 :: DEBUG :: --current track id TREYVCP128F92F119E
+2018-12-05 13:39:04,867 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/Y/V/TREYVCP128F92F119E
+2018-12-05 13:39:04,868 :: DEBUG :: --current_track_length : 384
+2018-12-05 13:39:04,868 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 13:39:04,868 :: DEBUG :: --initialized label array
+2018-12-05 13:39:04,868 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:04,868 :: DEBUG :: --new timestep : 0
+2018-12-05 13:39:04,868 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:04,868 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:04,868 :: DEBUG :: --new timestep : 96
+2018-12-05 13:39:04,868 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:04,868 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:04,869 :: DEBUG :: --new timestep : 192
+2018-12-05 13:39:04,869 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:04,869 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:04,869 :: DEBUG :: --new timestep : 288
+2018-12-05 13:39:04,869 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 13:39:04,869 :: DEBUG :: --length of the extract :96
+2018-12-05 13:39:04,869 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 13:39:04,869 :: DEBUG :: --current_timestep : 0
+2018-12-05 13:39:04,869 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 13:39:04,869 :: DEBUG :: --current beat resolution : 24
+2018-12-05 13:39:04,870 :: DEBUG :: --current time step window : 96
+2018-12-05 13:39:04,870 :: DEBUG :: --current track id TREYVCP128F92F119E
+2018-12-05 13:39:04,870 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/Y/V/TREYVCP128F92F119E
+2018-12-05 13:39:04,870 :: DEBUG :: --current_track_length : 384
+2018-12-05 13:39:04,870 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 13:39:04,870 :: DEBUG :: --initialized label array
+2018-12-05 13:39:04,870 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:04,870 :: DEBUG :: --new timestep : 0
+2018-12-05 13:39:04,870 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:04,870 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:04,870 :: DEBUG :: --new timestep : 96
+2018-12-05 13:39:04,871 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:04,871 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:04,871 :: DEBUG :: --new timestep : 192
+2018-12-05 13:39:04,871 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:04,871 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:04,871 :: DEBUG :: --new timestep : 288
+2018-12-05 13:39:04,871 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 13:39:04,871 :: DEBUG :: --length of the extract :96
+2018-12-05 13:39:48,679 :: DEBUG :: --register {'labelised': ['TRSHKBR128F4281C97', 'TRQZQFH128F9303993', 'TREYVCP128F92F119E']}
+2018-12-05 13:39:48,679 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:39:48,686 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:39:48,690 :: DEBUG :: ---Find a labeled track
+2018-12-05 13:39:48,705 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 13:39:48,705 :: DEBUG :: --current_timestep : 0
+2018-12-05 13:39:48,705 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 13:39:48,705 :: DEBUG :: --current beat resolution : 24
+2018-12-05 13:39:48,705 :: DEBUG :: --current time step window : 96
+2018-12-05 13:39:48,705 :: DEBUG :: --current track id TREYVCP128F92F119E
+2018-12-05 13:39:48,705 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/Y/V/TREYVCP128F92F119E
+2018-12-05 13:39:48,705 :: DEBUG :: --current_track_length : 384
+2018-12-05 13:39:48,705 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 13:39:48,705 :: DEBUG :: --initialized label array
+2018-12-05 13:39:48,705 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:48,705 :: DEBUG :: --new timestep : 0
+2018-12-05 13:39:48,705 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:48,706 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:48,706 :: DEBUG :: --new timestep : 96
+2018-12-05 13:39:48,706 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:48,706 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:48,706 :: DEBUG :: --new timestep : 192
+2018-12-05 13:39:48,706 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:48,706 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:48,706 :: DEBUG :: --new timestep : 288
+2018-12-05 13:39:48,706 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 13:39:48,706 :: DEBUG :: --length of the extract :96
+2018-12-05 13:39:48,706 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 13:39:48,706 :: DEBUG :: --current_timestep : 0
+2018-12-05 13:39:48,706 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 13:39:48,706 :: DEBUG :: --current beat resolution : 24
+2018-12-05 13:39:48,706 :: DEBUG :: --current time step window : 96
+2018-12-05 13:39:48,706 :: DEBUG :: --current track id TREYVCP128F92F119E
+2018-12-05 13:39:48,707 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/Y/V/TREYVCP128F92F119E
+2018-12-05 13:39:48,707 :: DEBUG :: --current_track_length : 384
+2018-12-05 13:39:48,707 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 13:39:48,707 :: DEBUG :: --initialized label array
+2018-12-05 13:39:48,707 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:48,707 :: DEBUG :: --new timestep : 0
+2018-12-05 13:39:48,707 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:48,707 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:48,707 :: DEBUG :: --new timestep : 96
+2018-12-05 13:39:48,707 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:48,707 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:48,707 :: DEBUG :: --new timestep : 192
+2018-12-05 13:39:48,707 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:48,707 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:48,707 :: DEBUG :: --new timestep : 288
+2018-12-05 13:39:48,707 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 13:39:48,708 :: DEBUG :: --length of the extract :96
+2018-12-05 13:39:48,708 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 13:39:48,708 :: DEBUG :: --current_timestep : 0
+2018-12-05 13:39:48,708 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 13:39:48,708 :: DEBUG :: --current beat resolution : 24
+2018-12-05 13:39:48,708 :: DEBUG :: --current time step window : 96
+2018-12-05 13:39:48,708 :: DEBUG :: --current track id TREYVCP128F92F119E
+2018-12-05 13:39:48,708 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/E/Y/V/TREYVCP128F92F119E
+2018-12-05 13:39:48,708 :: DEBUG :: --current_track_length : 384
+2018-12-05 13:39:48,708 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 13:39:48,708 :: DEBUG :: --initialized label array
+2018-12-05 13:39:48,708 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:48,708 :: DEBUG :: --new timestep : 0
+2018-12-05 13:39:48,708 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:48,708 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:48,708 :: DEBUG :: --new timestep : 96
+2018-12-05 13:39:48,709 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:48,709 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:48,709 :: DEBUG :: --new timestep : 192
+2018-12-05 13:39:48,709 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 13:39:48,709 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 13:39:48,709 :: DEBUG :: --new timestep : 288
+2018-12-05 13:39:48,709 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 13:39:48,709 :: DEBUG :: --length of the extract :96
+2018-12-05 14:31:24,829 :: ERROR :: can't find register.json
+2018-12-05 14:34:32,495 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777']}
+2018-12-05 14:34:32,503 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:34:32,515 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:34:32,519 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:34:32,522 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:34:32,542 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:34:32,542 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:34:32,542 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:34:32,543 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:34:32,543 :: DEBUG :: --current time step window : 96
+2018-12-05 14:34:32,543 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:34:32,543 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:34:32,543 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:34:32,543 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:34:32,543 :: DEBUG :: --initialized label array
+2018-12-05 14:34:32,543 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:34:32,543 :: DEBUG :: --new timestep : 0
+2018-12-05 14:34:32,543 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:34:32,543 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:34:32,543 :: DEBUG :: --new timestep : 96
+2018-12-05 14:34:32,543 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:34:32,543 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:34:32,543 :: DEBUG :: --new timestep : 192
+2018-12-05 14:34:32,544 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:34:32,544 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:34:32,544 :: DEBUG :: --new timestep : 288
+2018-12-05 14:34:32,544 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:34:32,544 :: DEBUG :: --length of the extract :96
+2018-12-05 14:34:32,544 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:34:32,544 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:34:32,544 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:34:32,544 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:34:32,544 :: DEBUG :: --current time step window : 96
+2018-12-05 14:34:32,544 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:34:32,544 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:34:32,544 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:34:32,544 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:34:32,544 :: DEBUG :: --initialized label array
+2018-12-05 14:34:32,544 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:34:32,545 :: DEBUG :: --new timestep : 0
+2018-12-05 14:34:32,545 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:34:32,545 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:34:32,545 :: DEBUG :: --new timestep : 96
+2018-12-05 14:34:32,545 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:34:32,545 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:34:32,545 :: DEBUG :: --new timestep : 192
+2018-12-05 14:34:32,545 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:34:32,545 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:34:32,545 :: DEBUG :: --new timestep : 288
+2018-12-05 14:34:32,545 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:34:32,545 :: DEBUG :: --length of the extract :96
+2018-12-05 14:34:32,545 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:34:32,545 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:34:32,546 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:34:32,546 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:34:32,546 :: DEBUG :: --current time step window : 96
+2018-12-05 14:34:32,546 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:34:32,546 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:34:32,546 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:34:32,546 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:34:32,546 :: DEBUG :: --initialized label array
+2018-12-05 14:34:32,546 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:34:32,546 :: DEBUG :: --new timestep : 0
+2018-12-05 14:34:32,546 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:34:32,546 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:34:32,546 :: DEBUG :: --new timestep : 96
+2018-12-05 14:34:32,546 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:34:32,546 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:34:32,546 :: DEBUG :: --new timestep : 192
+2018-12-05 14:34:32,546 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:34:32,547 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:34:32,547 :: DEBUG :: --new timestep : 288
+2018-12-05 14:34:32,547 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:34:32,547 :: DEBUG :: --length of the extract :96
+2018-12-05 14:42:11,011 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:42:11,011 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:42:11,015 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:42:11,018 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:42:11,020 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:42:11,023 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:42:11,041 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:42:11,041 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:42:11,041 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:42:11,041 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:42:11,041 :: DEBUG :: --current time step window : 96
+2018-12-05 14:42:11,041 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:42:11,041 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:42:11,041 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:42:11,042 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:42:11,042 :: DEBUG :: --initialized label array
+2018-12-05 14:42:11,042 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:11,042 :: DEBUG :: --new timestep : 0
+2018-12-05 14:42:11,042 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:11,042 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:11,042 :: DEBUG :: --new timestep : 96
+2018-12-05 14:42:11,042 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:11,042 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:11,042 :: DEBUG :: --new timestep : 192
+2018-12-05 14:42:11,042 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:11,042 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:11,042 :: DEBUG :: --new timestep : 288
+2018-12-05 14:42:11,042 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:42:11,042 :: DEBUG :: --length of the extract :96
+2018-12-05 14:42:11,043 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:42:11,043 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:42:11,043 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:42:11,043 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:42:11,043 :: DEBUG :: --current time step window : 96
+2018-12-05 14:42:11,043 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:42:11,043 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:42:11,043 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:42:11,043 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:42:11,043 :: DEBUG :: --initialized label array
+2018-12-05 14:42:11,043 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:11,043 :: DEBUG :: --new timestep : 0
+2018-12-05 14:42:11,043 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:11,043 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:11,043 :: DEBUG :: --new timestep : 96
+2018-12-05 14:42:11,043 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:11,044 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:11,044 :: DEBUG :: --new timestep : 192
+2018-12-05 14:42:11,044 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:11,044 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:11,044 :: DEBUG :: --new timestep : 288
+2018-12-05 14:42:11,044 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:42:11,044 :: DEBUG :: --length of the extract :96
+2018-12-05 14:42:11,044 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:42:11,044 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:42:11,044 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:42:11,044 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:42:11,044 :: DEBUG :: --current time step window : 96
+2018-12-05 14:42:11,044 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:42:11,044 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:42:11,044 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:42:11,044 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:42:11,045 :: DEBUG :: --initialized label array
+2018-12-05 14:42:11,045 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:11,045 :: DEBUG :: --new timestep : 0
+2018-12-05 14:42:11,045 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:11,045 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:11,045 :: DEBUG :: --new timestep : 96
+2018-12-05 14:42:11,045 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:11,045 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:11,045 :: DEBUG :: --new timestep : 192
+2018-12-05 14:42:11,045 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:11,045 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:11,045 :: DEBUG :: --new timestep : 288
+2018-12-05 14:42:11,045 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:42:11,045 :: DEBUG :: --length of the extract :96
+2018-12-05 14:42:55,311 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:42:55,311 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:42:55,319 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:42:55,323 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:42:55,327 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:42:55,332 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:42:55,356 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:42:55,356 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:42:55,356 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:42:55,356 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:42:55,356 :: DEBUG :: --current time step window : 96
+2018-12-05 14:42:55,356 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:42:55,356 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:42:55,356 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:42:55,357 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:42:55,357 :: DEBUG :: --initialized label array
+2018-12-05 14:42:55,357 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:55,357 :: DEBUG :: --new timestep : 0
+2018-12-05 14:42:55,357 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:55,357 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:55,357 :: DEBUG :: --new timestep : 96
+2018-12-05 14:42:55,357 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:55,357 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:55,357 :: DEBUG :: --new timestep : 192
+2018-12-05 14:42:55,357 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:55,357 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:55,357 :: DEBUG :: --new timestep : 288
+2018-12-05 14:42:55,357 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:42:55,357 :: DEBUG :: --length of the extract :96
+2018-12-05 14:42:55,358 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:42:55,358 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:42:55,358 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:42:55,358 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:42:55,358 :: DEBUG :: --current time step window : 96
+2018-12-05 14:42:55,358 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:42:55,358 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:42:55,358 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:42:55,358 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:42:55,358 :: DEBUG :: --initialized label array
+2018-12-05 14:42:55,358 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:55,358 :: DEBUG :: --new timestep : 0
+2018-12-05 14:42:55,358 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:55,358 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:55,358 :: DEBUG :: --new timestep : 96
+2018-12-05 14:42:55,358 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:55,358 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:55,359 :: DEBUG :: --new timestep : 192
+2018-12-05 14:42:55,359 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:55,359 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:55,359 :: DEBUG :: --new timestep : 288
+2018-12-05 14:42:55,359 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:42:55,359 :: DEBUG :: --length of the extract :96
+2018-12-05 14:42:55,359 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:42:55,359 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:42:55,359 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:42:55,359 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:42:55,359 :: DEBUG :: --current time step window : 96
+2018-12-05 14:42:55,359 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:42:55,359 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:42:55,359 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:42:55,359 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:42:55,359 :: DEBUG :: --initialized label array
+2018-12-05 14:42:55,359 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:55,360 :: DEBUG :: --new timestep : 0
+2018-12-05 14:42:55,360 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:55,360 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:55,360 :: DEBUG :: --new timestep : 96
+2018-12-05 14:42:55,360 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:55,360 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:55,360 :: DEBUG :: --new timestep : 192
+2018-12-05 14:42:55,360 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:42:55,360 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:42:55,360 :: DEBUG :: --new timestep : 288
+2018-12-05 14:42:55,360 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:42:55,360 :: DEBUG :: --length of the extract :96
+2018-12-05 14:43:01,912 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:43:01,912 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:01,917 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:01,919 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:01,922 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:01,924 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:01,943 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:43:01,943 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:43:01,943 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:43:01,943 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:43:01,943 :: DEBUG :: --current time step window : 96
+2018-12-05 14:43:01,943 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:43:01,943 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:43:01,943 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:43:01,943 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:43:01,943 :: DEBUG :: --initialized label array
+2018-12-05 14:43:01,943 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:01,943 :: DEBUG :: --new timestep : 0
+2018-12-05 14:43:01,943 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:01,944 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:01,944 :: DEBUG :: --new timestep : 96
+2018-12-05 14:43:01,944 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:01,944 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:01,944 :: DEBUG :: --new timestep : 192
+2018-12-05 14:43:01,944 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:01,944 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:01,944 :: DEBUG :: --new timestep : 288
+2018-12-05 14:43:01,944 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:43:01,944 :: DEBUG :: --length of the extract :96
+2018-12-05 14:43:01,944 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:43:01,944 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:43:01,944 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:43:01,944 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:43:01,944 :: DEBUG :: --current time step window : 96
+2018-12-05 14:43:01,944 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:43:01,944 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:43:01,945 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:43:01,945 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:43:01,945 :: DEBUG :: --initialized label array
+2018-12-05 14:43:01,945 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:01,945 :: DEBUG :: --new timestep : 0
+2018-12-05 14:43:01,945 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:01,945 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:01,945 :: DEBUG :: --new timestep : 96
+2018-12-05 14:43:01,945 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:01,945 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:01,945 :: DEBUG :: --new timestep : 192
+2018-12-05 14:43:01,945 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:01,945 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:01,945 :: DEBUG :: --new timestep : 288
+2018-12-05 14:43:01,946 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:43:01,946 :: DEBUG :: --length of the extract :96
+2018-12-05 14:43:01,946 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:43:01,946 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:43:01,946 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:43:01,946 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:43:01,946 :: DEBUG :: --current time step window : 96
+2018-12-05 14:43:01,946 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:43:01,946 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:43:01,946 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:43:01,946 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:43:01,947 :: DEBUG :: --initialized label array
+2018-12-05 14:43:01,947 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:01,947 :: DEBUG :: --new timestep : 0
+2018-12-05 14:43:01,947 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:01,947 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:01,947 :: DEBUG :: --new timestep : 96
+2018-12-05 14:43:01,947 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:01,947 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:01,947 :: DEBUG :: --new timestep : 192
+2018-12-05 14:43:01,947 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:01,947 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:01,947 :: DEBUG :: --new timestep : 288
+2018-12-05 14:43:01,947 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:43:01,947 :: DEBUG :: --length of the extract :96
+2018-12-05 14:43:43,229 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:43:43,229 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:43,234 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:43,236 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:43,239 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:43,241 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:43,259 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:43:43,259 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:43:43,259 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:43:43,259 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:43:43,260 :: DEBUG :: --current time step window : 96
+2018-12-05 14:43:43,260 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:43:43,260 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:43:43,260 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:43:43,260 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:43:43,260 :: DEBUG :: --initialized label array
+2018-12-05 14:43:43,260 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:43,260 :: DEBUG :: --new timestep : 0
+2018-12-05 14:43:43,260 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:43,260 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:43,260 :: DEBUG :: --new timestep : 96
+2018-12-05 14:43:43,260 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:43,260 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:43,260 :: DEBUG :: --new timestep : 192
+2018-12-05 14:43:43,260 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:43,260 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:43,261 :: DEBUG :: --new timestep : 288
+2018-12-05 14:43:43,261 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:43:43,261 :: DEBUG :: --length of the extract :96
+2018-12-05 14:43:43,261 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:43:43,261 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:43:43,261 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:43:43,261 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:43:43,261 :: DEBUG :: --current time step window : 96
+2018-12-05 14:43:43,261 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:43:43,261 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:43:43,261 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:43:43,261 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:43:43,261 :: DEBUG :: --initialized label array
+2018-12-05 14:43:43,261 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:43,261 :: DEBUG :: --new timestep : 0
+2018-12-05 14:43:43,261 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:43,261 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:43,262 :: DEBUG :: --new timestep : 96
+2018-12-05 14:43:43,262 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:43,262 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:43,262 :: DEBUG :: --new timestep : 192
+2018-12-05 14:43:43,262 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:43,262 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:43,262 :: DEBUG :: --new timestep : 288
+2018-12-05 14:43:43,262 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:43:43,262 :: DEBUG :: --length of the extract :96
+2018-12-05 14:43:43,262 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:43:43,262 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:43:43,262 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:43:43,262 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:43:43,262 :: DEBUG :: --current time step window : 96
+2018-12-05 14:43:43,262 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:43:43,262 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:43:43,262 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:43:43,263 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:43:43,263 :: DEBUG :: --initialized label array
+2018-12-05 14:43:43,263 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:43,263 :: DEBUG :: --new timestep : 0
+2018-12-05 14:43:43,263 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:43,263 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:43,263 :: DEBUG :: --new timestep : 96
+2018-12-05 14:43:43,263 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:43,263 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:43,263 :: DEBUG :: --new timestep : 192
+2018-12-05 14:43:43,263 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:43,263 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:43,263 :: DEBUG :: --new timestep : 288
+2018-12-05 14:43:43,263 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:43:43,263 :: DEBUG :: --length of the extract :96
+2018-12-05 14:43:44,915 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:43:44,915 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:44,920 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:44,922 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:44,924 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:44,927 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:44,945 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:43:44,945 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:43:44,945 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:43:44,945 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:43:44,945 :: DEBUG :: --current time step window : 96
+2018-12-05 14:43:44,945 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:43:44,945 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:43:44,945 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:43:44,945 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:43:44,945 :: DEBUG :: --initialized label array
+2018-12-05 14:43:44,946 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:44,946 :: DEBUG :: --new timestep : 0
+2018-12-05 14:43:44,946 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:44,946 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:44,946 :: DEBUG :: --new timestep : 96
+2018-12-05 14:43:44,946 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:44,946 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:44,946 :: DEBUG :: --new timestep : 192
+2018-12-05 14:43:44,946 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:44,946 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:44,946 :: DEBUG :: --new timestep : 288
+2018-12-05 14:43:44,946 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:43:44,946 :: DEBUG :: --length of the extract :96
+2018-12-05 14:43:44,946 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:43:44,946 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:43:44,946 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:43:44,947 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:43:44,947 :: DEBUG :: --current time step window : 96
+2018-12-05 14:43:44,947 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:43:44,947 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:43:44,947 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:43:44,947 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:43:44,947 :: DEBUG :: --initialized label array
+2018-12-05 14:43:44,947 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:44,947 :: DEBUG :: --new timestep : 0
+2018-12-05 14:43:44,947 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:44,947 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:44,947 :: DEBUG :: --new timestep : 96
+2018-12-05 14:43:44,947 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:44,947 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:44,947 :: DEBUG :: --new timestep : 192
+2018-12-05 14:43:44,947 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:44,948 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:44,948 :: DEBUG :: --new timestep : 288
+2018-12-05 14:43:44,948 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:43:44,948 :: DEBUG :: --length of the extract :96
+2018-12-05 14:43:44,948 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:43:44,948 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:43:44,948 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:43:44,948 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:43:44,948 :: DEBUG :: --current time step window : 96
+2018-12-05 14:43:44,948 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:43:44,948 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:43:44,948 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:43:44,948 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:43:44,948 :: DEBUG :: --initialized label array
+2018-12-05 14:43:44,948 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:44,948 :: DEBUG :: --new timestep : 0
+2018-12-05 14:43:44,948 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:44,949 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:44,949 :: DEBUG :: --new timestep : 96
+2018-12-05 14:43:44,949 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:44,949 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:44,949 :: DEBUG :: --new timestep : 192
+2018-12-05 14:43:44,949 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:44,949 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:44,949 :: DEBUG :: --new timestep : 288
+2018-12-05 14:43:44,949 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:43:44,949 :: DEBUG :: --length of the extract :96
+2018-12-05 14:43:46,517 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:43:46,517 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:46,522 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:46,524 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:46,527 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:46,529 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:43:46,548 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:43:46,548 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:43:46,548 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:43:46,548 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:43:46,548 :: DEBUG :: --current time step window : 96
+2018-12-05 14:43:46,548 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:43:46,548 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:43:46,548 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:43:46,548 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:43:46,548 :: DEBUG :: --initialized label array
+2018-12-05 14:43:46,548 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:46,548 :: DEBUG :: --new timestep : 0
+2018-12-05 14:43:46,548 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:46,548 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:46,549 :: DEBUG :: --new timestep : 96
+2018-12-05 14:43:46,549 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:46,549 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:46,549 :: DEBUG :: --new timestep : 192
+2018-12-05 14:43:46,549 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:46,549 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:46,549 :: DEBUG :: --new timestep : 288
+2018-12-05 14:43:46,549 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:43:46,549 :: DEBUG :: --length of the extract :96
+2018-12-05 14:43:46,549 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:43:46,549 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:43:46,549 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:43:46,549 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:43:46,549 :: DEBUG :: --current time step window : 96
+2018-12-05 14:43:46,549 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:43:46,549 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:43:46,549 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:43:46,550 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:43:46,550 :: DEBUG :: --initialized label array
+2018-12-05 14:43:46,550 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:46,550 :: DEBUG :: --new timestep : 0
+2018-12-05 14:43:46,550 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:46,550 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:46,550 :: DEBUG :: --new timestep : 96
+2018-12-05 14:43:46,550 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:46,550 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:46,550 :: DEBUG :: --new timestep : 192
+2018-12-05 14:43:46,550 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:46,550 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:46,550 :: DEBUG :: --new timestep : 288
+2018-12-05 14:43:46,550 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:43:46,550 :: DEBUG :: --length of the extract :96
+2018-12-05 14:43:46,550 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:43:46,551 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:43:46,551 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:43:46,551 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:43:46,551 :: DEBUG :: --current time step window : 96
+2018-12-05 14:43:46,551 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 14:43:46,551 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 14:43:46,551 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:43:46,551 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:43:46,551 :: DEBUG :: --initialized label array
+2018-12-05 14:43:46,551 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:46,551 :: DEBUG :: --new timestep : 0
+2018-12-05 14:43:46,551 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:46,551 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:46,551 :: DEBUG :: --new timestep : 96
+2018-12-05 14:43:46,551 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:46,551 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:46,551 :: DEBUG :: --new timestep : 192
+2018-12-05 14:43:46,552 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:43:46,552 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:43:46,552 :: DEBUG :: --new timestep : 288
+2018-12-05 14:43:46,552 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:43:46,552 :: DEBUG :: --length of the extract :96
+2018-12-05 14:44:04,459 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:44:04,459 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:04,463 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:04,466 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:04,468 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:04,471 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:04,489 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:44:04,489 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:44:04,489 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:44:04,490 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:44:04,490 :: DEBUG :: --current time step window : 96
+2018-12-05 14:44:04,490 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:44:04,490 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:44:04,490 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:44:04,490 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:44:04,490 :: DEBUG :: --initialized label array
+2018-12-05 14:44:04,490 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:04,490 :: DEBUG :: --new timestep : 0
+2018-12-05 14:44:04,490 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:04,490 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:04,490 :: DEBUG :: --new timestep : 96
+2018-12-05 14:44:04,490 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:04,490 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:04,490 :: DEBUG :: --new timestep : 192
+2018-12-05 14:44:04,491 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:04,491 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:04,491 :: DEBUG :: --new timestep : 288
+2018-12-05 14:44:04,491 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:44:04,491 :: DEBUG :: --length of the extract :96
+2018-12-05 14:44:04,491 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:44:04,491 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:44:04,491 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:44:04,491 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:44:04,491 :: DEBUG :: --current time step window : 96
+2018-12-05 14:44:04,491 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:44:04,491 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:44:04,491 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:44:04,491 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:44:04,491 :: DEBUG :: --initialized label array
+2018-12-05 14:44:04,491 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:04,491 :: DEBUG :: --new timestep : 0
+2018-12-05 14:44:04,492 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:04,492 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:04,492 :: DEBUG :: --new timestep : 96
+2018-12-05 14:44:04,492 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:04,492 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:04,492 :: DEBUG :: --new timestep : 192
+2018-12-05 14:44:04,492 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:04,492 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:04,492 :: DEBUG :: --new timestep : 288
+2018-12-05 14:44:04,492 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:44:04,492 :: DEBUG :: --length of the extract :96
+2018-12-05 14:44:04,492 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:44:04,492 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:44:04,492 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:44:04,492 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:44:04,492 :: DEBUG :: --current time step window : 96
+2018-12-05 14:44:04,493 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:44:04,493 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:44:04,493 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:44:04,493 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:44:04,493 :: DEBUG :: --initialized label array
+2018-12-05 14:44:04,493 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:04,493 :: DEBUG :: --new timestep : 0
+2018-12-05 14:44:04,493 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:04,493 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:04,493 :: DEBUG :: --new timestep : 96
+2018-12-05 14:44:04,493 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:04,493 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:04,493 :: DEBUG :: --new timestep : 192
+2018-12-05 14:44:04,493 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:04,493 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:04,493 :: DEBUG :: --new timestep : 288
+2018-12-05 14:44:04,493 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:44:04,494 :: DEBUG :: --length of the extract :96
+2018-12-05 14:44:19,690 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:44:19,690 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:19,695 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:19,697 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:19,700 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:19,702 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:19,720 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:44:19,721 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:44:19,721 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:44:19,721 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:44:19,721 :: DEBUG :: --current time step window : 96
+2018-12-05 14:44:19,721 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:44:19,721 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:44:19,721 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:44:19,721 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:44:19,721 :: DEBUG :: --initialized label array
+2018-12-05 14:44:19,721 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:19,721 :: DEBUG :: --new timestep : 0
+2018-12-05 14:44:19,721 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:19,721 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:19,721 :: DEBUG :: --new timestep : 96
+2018-12-05 14:44:19,722 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:19,722 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:19,722 :: DEBUG :: --new timestep : 192
+2018-12-05 14:44:19,722 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:19,722 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:19,722 :: DEBUG :: --new timestep : 288
+2018-12-05 14:44:19,722 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:44:19,722 :: DEBUG :: --length of the extract :96
+2018-12-05 14:44:19,722 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:44:19,722 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:44:19,722 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:44:19,722 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:44:19,722 :: DEBUG :: --current time step window : 96
+2018-12-05 14:44:19,722 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:44:19,722 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:44:19,723 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:44:19,723 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:44:19,723 :: DEBUG :: --initialized label array
+2018-12-05 14:44:19,723 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:19,723 :: DEBUG :: --new timestep : 0
+2018-12-05 14:44:19,723 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:19,723 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:19,723 :: DEBUG :: --new timestep : 96
+2018-12-05 14:44:19,723 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:19,723 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:19,723 :: DEBUG :: --new timestep : 192
+2018-12-05 14:44:19,723 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:19,723 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:19,723 :: DEBUG :: --new timestep : 288
+2018-12-05 14:44:19,723 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:44:19,723 :: DEBUG :: --length of the extract :96
+2018-12-05 14:44:19,724 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:44:19,724 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:44:19,724 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:44:19,724 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:44:19,724 :: DEBUG :: --current time step window : 96
+2018-12-05 14:44:19,724 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:44:19,724 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:44:19,724 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:44:19,724 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:44:19,724 :: DEBUG :: --initialized label array
+2018-12-05 14:44:19,724 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:19,724 :: DEBUG :: --new timestep : 0
+2018-12-05 14:44:19,724 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:19,725 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:19,725 :: DEBUG :: --new timestep : 96
+2018-12-05 14:44:19,725 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:19,725 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:19,725 :: DEBUG :: --new timestep : 192
+2018-12-05 14:44:19,725 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:19,725 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:19,725 :: DEBUG :: --new timestep : 288
+2018-12-05 14:44:19,725 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:44:19,726 :: DEBUG :: --length of the extract :96
+2018-12-05 14:44:54,315 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:44:54,316 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:54,320 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:54,322 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:54,325 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:54,330 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:44:54,349 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:44:54,349 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:44:54,349 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:44:54,349 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:44:54,349 :: DEBUG :: --current time step window : 96
+2018-12-05 14:44:54,349 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:44:54,349 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:44:54,350 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:44:54,350 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:44:54,350 :: DEBUG :: --initialized label array
+2018-12-05 14:44:54,350 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:54,350 :: DEBUG :: --new timestep : 0
+2018-12-05 14:44:54,350 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:54,351 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:54,351 :: DEBUG :: --new timestep : 96
+2018-12-05 14:44:54,351 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:54,351 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:54,351 :: DEBUG :: --new timestep : 192
+2018-12-05 14:44:54,351 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:54,352 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:54,352 :: DEBUG :: --new timestep : 288
+2018-12-05 14:44:54,352 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:44:54,352 :: DEBUG :: --length of the extract :96
+2018-12-05 14:44:54,353 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:44:54,353 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:44:54,353 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:44:54,353 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:44:54,353 :: DEBUG :: --current time step window : 96
+2018-12-05 14:44:54,353 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:44:54,353 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:44:54,353 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:44:54,353 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:44:54,353 :: DEBUG :: --initialized label array
+2018-12-05 14:44:54,353 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:54,353 :: DEBUG :: --new timestep : 0
+2018-12-05 14:44:54,354 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:54,354 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:54,354 :: DEBUG :: --new timestep : 96
+2018-12-05 14:44:54,354 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:54,355 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:54,355 :: DEBUG :: --new timestep : 192
+2018-12-05 14:44:54,355 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:54,356 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:54,356 :: DEBUG :: --new timestep : 288
+2018-12-05 14:44:54,356 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:44:54,356 :: DEBUG :: --length of the extract :96
+2018-12-05 14:44:54,356 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:44:54,357 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:44:54,357 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:44:54,357 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:44:54,357 :: DEBUG :: --current time step window : 96
+2018-12-05 14:44:54,357 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:44:54,357 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:44:54,357 :: DEBUG :: --current_track_length : 384
+2018-12-05 14:44:54,357 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:44:54,357 :: DEBUG :: --initialized label array
+2018-12-05 14:44:54,357 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:54,357 :: DEBUG :: --new timestep : 0
+2018-12-05 14:44:54,357 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:54,358 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:54,358 :: DEBUG :: --new timestep : 96
+2018-12-05 14:44:54,358 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:54,358 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:54,359 :: DEBUG :: --new timestep : 192
+2018-12-05 14:44:54,359 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:44:54,359 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:44:54,359 :: DEBUG :: --new timestep : 288
+2018-12-05 14:44:54,359 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:44:54,359 :: DEBUG :: --length of the extract :96
+2018-12-05 14:55:11,822 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:55:11,822 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:55:11,826 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:55:11,829 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:55:11,831 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:55:11,834 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:55:11,852 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:55:11,852 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:55:11,852 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:55:11,852 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:55:11,852 :: DEBUG :: --current time step window : 96
+2018-12-05 14:55:11,852 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:55:11,852 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:55:11,852 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:55:11,852 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:55:11,852 :: DEBUG :: --initialized label array
+2018-12-05 14:55:11,853 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:55:11,853 :: DEBUG :: --new timestep : 0
+2018-12-05 14:55:11,853 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:55:11,853 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:55:11,853 :: DEBUG :: --new timestep : 96
+2018-12-05 14:55:11,853 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:55:11,853 :: DEBUG :: --length of the extract :96
+2018-12-05 14:55:11,854 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:55:11,854 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:55:11,854 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:55:11,854 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:55:11,854 :: DEBUG :: --current time step window : 96
+2018-12-05 14:55:11,854 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:55:11,854 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:55:11,854 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:55:11,854 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:55:11,854 :: DEBUG :: --initialized label array
+2018-12-05 14:55:11,854 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:55:11,854 :: DEBUG :: --new timestep : 0
+2018-12-05 14:55:11,854 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:55:11,855 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:55:11,855 :: DEBUG :: --new timestep : 96
+2018-12-05 14:55:11,855 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:55:11,855 :: DEBUG :: --length of the extract :96
+2018-12-05 14:55:11,855 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:55:11,855 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:55:11,855 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:55:11,855 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:55:11,856 :: DEBUG :: --current time step window : 96
+2018-12-05 14:55:11,856 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:55:11,856 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:55:11,856 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:55:11,856 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:55:11,856 :: DEBUG :: --initialized label array
+2018-12-05 14:55:11,856 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:55:11,856 :: DEBUG :: --new timestep : 0
+2018-12-05 14:55:11,856 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:55:11,856 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:55:11,856 :: DEBUG :: --new timestep : 96
+2018-12-05 14:55:11,856 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:55:11,856 :: DEBUG :: --length of the extract :96
+2018-12-05 14:57:58,619 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:57:58,619 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:57:58,623 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:57:58,626 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:57:58,628 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:57:58,630 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:57:58,648 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:57:58,649 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:57:58,649 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:57:58,649 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:57:58,649 :: DEBUG :: --current time step window : 96
+2018-12-05 14:57:58,649 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:57:58,649 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:57:58,649 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:57:58,649 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:57:58,649 :: DEBUG :: --initialized label array
+2018-12-05 14:57:58,649 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:57:58,649 :: DEBUG :: --new timestep : 0
+2018-12-05 14:57:58,649 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:57:58,650 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:57:58,650 :: DEBUG :: --new timestep : 96
+2018-12-05 14:57:58,650 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:57:58,650 :: DEBUG :: --length of the extract :96
+2018-12-05 14:57:58,650 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:57:58,650 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:57:58,650 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:57:58,650 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:57:58,650 :: DEBUG :: --current time step window : 96
+2018-12-05 14:57:58,651 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:57:58,651 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:57:58,651 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:57:58,651 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:57:58,651 :: DEBUG :: --initialized label array
+2018-12-05 14:57:58,651 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:57:58,651 :: DEBUG :: --new timestep : 0
+2018-12-05 14:57:58,651 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:57:58,651 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:57:58,651 :: DEBUG :: --new timestep : 96
+2018-12-05 14:57:58,651 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:57:58,651 :: DEBUG :: --length of the extract :96
+2018-12-05 14:57:58,652 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:57:58,652 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:57:58,652 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:57:58,652 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:57:58,652 :: DEBUG :: --current time step window : 96
+2018-12-05 14:57:58,652 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:57:58,652 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:57:58,652 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:57:58,652 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:57:58,652 :: DEBUG :: --initialized label array
+2018-12-05 14:57:58,652 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:57:58,652 :: DEBUG :: --new timestep : 0
+2018-12-05 14:57:58,653 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:57:58,653 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:57:58,653 :: DEBUG :: --new timestep : 96
+2018-12-05 14:57:58,653 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:57:58,653 :: DEBUG :: --length of the extract :96
+2018-12-05 14:57:58,653 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:57:58,654 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:57:58,654 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:57:58,654 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:57:58,654 :: DEBUG :: --current time step window : 96
+2018-12-05 14:57:58,654 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:57:58,654 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:57:58,654 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:57:58,654 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:57:58,654 :: DEBUG :: --initialized label array
+2018-12-05 14:57:58,654 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:57:58,654 :: DEBUG :: --new timestep : 0
+2018-12-05 14:57:58,654 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:57:58,655 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:57:58,655 :: DEBUG :: --new timestep : 96
+2018-12-05 14:57:58,655 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:57:58,655 :: DEBUG :: --length of the extract :96
+2018-12-05 14:57:58,655 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:57:58,655 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:57:58,655 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:57:58,655 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:57:58,655 :: DEBUG :: --current time step window : 96
+2018-12-05 14:57:58,655 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:57:58,655 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:57:58,656 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:57:58,656 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:57:58,656 :: DEBUG :: --initialized label array
+2018-12-05 14:57:58,656 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:57:58,656 :: DEBUG :: --new timestep : 0
+2018-12-05 14:57:58,656 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:57:58,656 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:57:58,656 :: DEBUG :: --new timestep : 96
+2018-12-05 14:57:58,656 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:57:58,656 :: DEBUG :: --length of the extract :96
+2018-12-05 14:58:15,680 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:58:15,681 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:58:15,685 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:58:15,688 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:58:15,690 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:58:15,693 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:58:15,711 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:58:15,711 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:58:15,711 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:58:15,711 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:58:15,711 :: DEBUG :: --current time step window : 96
+2018-12-05 14:58:15,711 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:58:15,711 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:58:15,711 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:58:15,711 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:58:15,711 :: DEBUG :: --initialized label array
+2018-12-05 14:58:15,711 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:15,712 :: DEBUG :: --new timestep : 0
+2018-12-05 14:58:15,712 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:58:15,712 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:15,712 :: DEBUG :: --new timestep : 96
+2018-12-05 14:58:15,712 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:58:15,712 :: DEBUG :: --length of the extract :96
+2018-12-05 14:58:15,712 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:58:15,712 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:58:15,712 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:58:15,712 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:58:15,712 :: DEBUG :: --current time step window : 96
+2018-12-05 14:58:15,712 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:58:15,712 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:58:15,712 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:58:15,712 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:58:15,712 :: DEBUG :: --initialized label array
+2018-12-05 14:58:15,712 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:15,713 :: DEBUG :: --new timestep : 0
+2018-12-05 14:58:15,713 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:58:15,713 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:15,713 :: DEBUG :: --new timestep : 96
+2018-12-05 14:58:15,713 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:58:15,713 :: DEBUG :: --length of the extract :96
+2018-12-05 14:58:15,713 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:58:15,713 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:58:15,713 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:58:15,713 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:58:15,713 :: DEBUG :: --current time step window : 96
+2018-12-05 14:58:15,713 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:58:15,713 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:58:15,713 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:58:15,713 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:58:15,713 :: DEBUG :: --initialized label array
+2018-12-05 14:58:15,713 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:15,714 :: DEBUG :: --new timestep : 0
+2018-12-05 14:58:15,714 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:58:15,714 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:15,714 :: DEBUG :: --new timestep : 96
+2018-12-05 14:58:15,714 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:58:15,714 :: DEBUG :: --length of the extract :96
+2018-12-05 14:58:15,714 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:58:15,714 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:58:15,714 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:58:15,714 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:58:15,714 :: DEBUG :: --current time step window : 96
+2018-12-05 14:58:15,714 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:58:15,714 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:58:15,714 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:58:15,714 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:58:15,714 :: DEBUG :: --initialized label array
+2018-12-05 14:58:15,715 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:15,715 :: DEBUG :: --new timestep : 0
+2018-12-05 14:58:15,715 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:58:15,715 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:15,715 :: DEBUG :: --new timestep : 96
+2018-12-05 14:58:15,715 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:58:15,715 :: DEBUG :: --length of the extract :96
+2018-12-05 14:58:15,715 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:58:15,715 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:58:15,715 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:58:15,715 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:58:15,715 :: DEBUG :: --current time step window : 96
+2018-12-05 14:58:15,715 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:58:15,715 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:58:15,715 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:58:15,715 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:58:15,715 :: DEBUG :: --initialized label array
+2018-12-05 14:58:15,716 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:15,716 :: DEBUG :: --new timestep : 0
+2018-12-05 14:58:15,716 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:58:15,716 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:15,716 :: DEBUG :: --new timestep : 96
+2018-12-05 14:58:15,716 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:58:15,716 :: DEBUG :: --length of the extract :96
+2018-12-05 14:58:34,829 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:58:34,829 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:58:34,834 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:58:34,836 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:58:34,838 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:58:34,841 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:58:34,859 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:58:34,859 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:58:34,859 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:58:34,859 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:58:34,859 :: DEBUG :: --current time step window : 96
+2018-12-05 14:58:34,859 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:58:34,859 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:58:34,860 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:58:34,860 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:58:34,860 :: DEBUG :: --initialized label array
+2018-12-05 14:58:34,860 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:34,860 :: DEBUG :: --new timestep : 0
+2018-12-05 14:58:34,860 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:58:34,860 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:34,860 :: DEBUG :: --new timestep : 96
+2018-12-05 14:58:34,860 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:58:34,860 :: DEBUG :: --length of the extract :96
+2018-12-05 14:58:34,860 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:58:34,860 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:58:34,860 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:58:34,860 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:58:34,860 :: DEBUG :: --current time step window : 96
+2018-12-05 14:58:34,860 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:58:34,860 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:58:34,861 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:58:34,861 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:58:34,861 :: DEBUG :: --initialized label array
+2018-12-05 14:58:34,861 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:34,861 :: DEBUG :: --new timestep : 0
+2018-12-05 14:58:34,861 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:58:34,861 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:34,861 :: DEBUG :: --new timestep : 96
+2018-12-05 14:58:34,861 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:58:34,861 :: DEBUG :: --length of the extract :96
+2018-12-05 14:58:34,861 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:58:34,861 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:58:34,861 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:58:34,861 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:58:34,862 :: DEBUG :: --current time step window : 96
+2018-12-05 14:58:34,862 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:58:34,862 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:58:34,862 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:58:34,862 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:58:34,862 :: DEBUG :: --initialized label array
+2018-12-05 14:58:34,862 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:34,862 :: DEBUG :: --new timestep : 0
+2018-12-05 14:58:34,862 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:58:34,862 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:34,862 :: DEBUG :: --new timestep : 96
+2018-12-05 14:58:34,862 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:58:34,862 :: DEBUG :: --length of the extract :96
+2018-12-05 14:58:34,862 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:58:34,862 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:58:34,862 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:58:34,862 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:58:34,863 :: DEBUG :: --current time step window : 96
+2018-12-05 14:58:34,863 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:58:34,863 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:58:34,863 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:58:34,863 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:58:34,863 :: DEBUG :: --initialized label array
+2018-12-05 14:58:34,863 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:34,863 :: DEBUG :: --new timestep : 0
+2018-12-05 14:58:34,863 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:58:34,863 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:34,863 :: DEBUG :: --new timestep : 96
+2018-12-05 14:58:34,863 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:58:34,863 :: DEBUG :: --length of the extract :96
+2018-12-05 14:58:34,863 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:58:34,863 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:58:34,863 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:58:34,863 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:58:34,864 :: DEBUG :: --current time step window : 96
+2018-12-05 14:58:34,864 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:58:34,864 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:58:34,864 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:58:34,864 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:58:34,864 :: DEBUG :: --initialized label array
+2018-12-05 14:58:34,864 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:34,864 :: DEBUG :: --new timestep : 0
+2018-12-05 14:58:34,864 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:58:34,864 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:58:34,864 :: DEBUG :: --new timestep : 96
+2018-12-05 14:58:34,864 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:58:34,864 :: DEBUG :: --length of the extract :96
+2018-12-05 14:59:14,310 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:59:14,311 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:59:14,315 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:59:14,318 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:59:14,320 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:59:14,322 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:59:14,341 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:59:14,341 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:59:14,341 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:59:14,341 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:59:14,341 :: DEBUG :: --current time step window : 96
+2018-12-05 14:59:14,341 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:59:14,341 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:59:14,341 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:59:14,342 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:59:14,342 :: DEBUG :: --initialized label array
+2018-12-05 14:59:14,342 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:14,342 :: DEBUG :: --new timestep : 0
+2018-12-05 14:59:14,342 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:59:14,342 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:14,342 :: DEBUG :: --new timestep : 96
+2018-12-05 14:59:14,342 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:59:14,342 :: DEBUG :: --length of the extract :96
+2018-12-05 14:59:14,342 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:59:14,342 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:59:14,342 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:59:14,342 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:59:14,342 :: DEBUG :: --current time step window : 96
+2018-12-05 14:59:14,343 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:59:14,343 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:59:14,343 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:59:14,343 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:59:14,343 :: DEBUG :: --initialized label array
+2018-12-05 14:59:14,343 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:14,343 :: DEBUG :: --new timestep : 0
+2018-12-05 14:59:14,343 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:59:14,343 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:14,343 :: DEBUG :: --new timestep : 96
+2018-12-05 14:59:14,343 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:59:14,343 :: DEBUG :: --length of the extract :96
+2018-12-05 14:59:14,343 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:59:14,343 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:59:14,343 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:59:14,343 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:59:14,343 :: DEBUG :: --current time step window : 96
+2018-12-05 14:59:14,344 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:59:14,344 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:59:14,344 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:59:14,344 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:59:14,344 :: DEBUG :: --initialized label array
+2018-12-05 14:59:14,344 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:14,344 :: DEBUG :: --new timestep : 0
+2018-12-05 14:59:14,344 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:59:14,344 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:14,344 :: DEBUG :: --new timestep : 96
+2018-12-05 14:59:14,344 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:59:14,344 :: DEBUG :: --length of the extract :96
+2018-12-05 14:59:14,344 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:59:14,344 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:59:14,344 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:59:14,345 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:59:14,345 :: DEBUG :: --current time step window : 96
+2018-12-05 14:59:14,345 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:59:14,345 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:59:14,345 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:59:14,345 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:59:14,345 :: DEBUG :: --initialized label array
+2018-12-05 14:59:14,345 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:14,345 :: DEBUG :: --new timestep : 0
+2018-12-05 14:59:14,345 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:59:14,345 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:14,345 :: DEBUG :: --new timestep : 96
+2018-12-05 14:59:14,345 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:59:14,345 :: DEBUG :: --length of the extract :96
+2018-12-05 14:59:14,345 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:59:14,346 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:59:14,346 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:59:14,346 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:59:14,346 :: DEBUG :: --current time step window : 96
+2018-12-05 14:59:14,346 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:59:14,346 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:59:14,346 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:59:14,346 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:59:14,346 :: DEBUG :: --initialized label array
+2018-12-05 14:59:14,346 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:14,346 :: DEBUG :: --new timestep : 0
+2018-12-05 14:59:14,346 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:59:14,346 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:14,346 :: DEBUG :: --new timestep : 96
+2018-12-05 14:59:14,346 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:59:14,346 :: DEBUG :: --length of the extract :96
+2018-12-05 14:59:27,150 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 14:59:27,150 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:59:27,155 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:59:27,157 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:59:27,160 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:59:27,162 :: DEBUG :: ---Find a labeled track
+2018-12-05 14:59:27,180 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:59:27,180 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:59:27,180 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:59:27,181 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:59:27,181 :: DEBUG :: --current time step window : 96
+2018-12-05 14:59:27,181 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:59:27,181 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:59:27,181 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:59:27,181 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:59:27,181 :: DEBUG :: --initialized label array
+2018-12-05 14:59:27,181 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:27,181 :: DEBUG :: --new timestep : 0
+2018-12-05 14:59:27,181 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:59:27,181 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:27,182 :: DEBUG :: --new timestep : 96
+2018-12-05 14:59:27,182 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:59:27,182 :: DEBUG :: --length of the extract :96
+2018-12-05 14:59:27,182 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:59:27,182 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:59:27,182 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:59:27,182 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:59:27,182 :: DEBUG :: --current time step window : 96
+2018-12-05 14:59:27,182 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:59:27,182 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:59:27,182 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:59:27,182 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:59:27,182 :: DEBUG :: --initialized label array
+2018-12-05 14:59:27,183 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:27,183 :: DEBUG :: --new timestep : 0
+2018-12-05 14:59:27,183 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:59:27,183 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:27,183 :: DEBUG :: --new timestep : 96
+2018-12-05 14:59:27,183 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:59:27,183 :: DEBUG :: --length of the extract :96
+2018-12-05 14:59:27,183 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:59:27,183 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:59:27,183 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:59:27,184 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:59:27,184 :: DEBUG :: --current time step window : 96
+2018-12-05 14:59:27,184 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:59:27,184 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:59:27,184 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:59:27,184 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:59:27,184 :: DEBUG :: --initialized label array
+2018-12-05 14:59:27,184 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:27,184 :: DEBUG :: --new timestep : 0
+2018-12-05 14:59:27,184 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:59:27,184 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:27,184 :: DEBUG :: --new timestep : 96
+2018-12-05 14:59:27,184 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:59:27,184 :: DEBUG :: --length of the extract :96
+2018-12-05 14:59:27,185 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:59:27,185 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:59:27,185 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:59:27,185 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:59:27,185 :: DEBUG :: --current time step window : 96
+2018-12-05 14:59:27,185 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:59:27,185 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:59:27,185 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:59:27,185 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:59:27,185 :: DEBUG :: --initialized label array
+2018-12-05 14:59:27,185 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:27,185 :: DEBUG :: --new timestep : 0
+2018-12-05 14:59:27,185 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:59:27,186 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:27,186 :: DEBUG :: --new timestep : 96
+2018-12-05 14:59:27,186 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:59:27,186 :: DEBUG :: --length of the extract :96
+2018-12-05 14:59:27,186 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 14:59:27,186 :: DEBUG :: --current_timestep : 0
+2018-12-05 14:59:27,186 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 14:59:27,186 :: DEBUG :: --current beat resolution : 24
+2018-12-05 14:59:27,186 :: DEBUG :: --current time step window : 96
+2018-12-05 14:59:27,186 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 14:59:27,187 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 14:59:27,187 :: DEBUG :: --current_track_length : 192
+2018-12-05 14:59:27,187 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 14:59:27,187 :: DEBUG :: --initialized label array
+2018-12-05 14:59:27,187 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:27,187 :: DEBUG :: --new timestep : 0
+2018-12-05 14:59:27,187 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 14:59:27,187 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 14:59:27,187 :: DEBUG :: --new timestep : 96
+2018-12-05 14:59:27,187 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 14:59:27,187 :: DEBUG :: --length of the extract :96
+2018-12-05 15:01:28,897 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 15:01:28,898 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:01:28,903 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:01:28,906 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:01:28,909 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:01:28,912 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:01:28,931 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:01:28,932 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:01:28,932 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:01:28,932 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:01:28,932 :: DEBUG :: --current time step window : 96
+2018-12-05 15:01:28,932 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 15:01:28,932 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 15:01:28,932 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:01:28,932 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:01:28,932 :: DEBUG :: --initialized label array
+2018-12-05 15:01:28,932 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:01:28,932 :: DEBUG :: --new timestep : 0
+2018-12-05 15:01:28,932 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:01:28,933 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:01:28,933 :: DEBUG :: --new timestep : 96
+2018-12-05 15:01:28,933 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:01:28,933 :: DEBUG :: --length of the extract :96
+2018-12-05 15:01:28,933 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:01:28,933 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:01:28,933 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:01:28,933 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:01:28,933 :: DEBUG :: --current time step window : 96
+2018-12-05 15:01:28,933 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 15:01:28,933 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 15:01:28,933 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:01:28,933 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:01:28,934 :: DEBUG :: --initialized label array
+2018-12-05 15:01:28,934 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:01:28,934 :: DEBUG :: --new timestep : 0
+2018-12-05 15:01:28,934 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:01:28,934 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:01:28,934 :: DEBUG :: --new timestep : 96
+2018-12-05 15:01:28,934 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:01:28,934 :: DEBUG :: --length of the extract :96
+2018-12-05 15:01:28,935 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:01:28,935 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:01:28,935 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:01:28,935 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:01:28,935 :: DEBUG :: --current time step window : 96
+2018-12-05 15:01:28,935 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 15:01:28,935 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 15:01:28,935 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:01:28,935 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:01:28,935 :: DEBUG :: --initialized label array
+2018-12-05 15:01:28,935 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:01:28,935 :: DEBUG :: --new timestep : 0
+2018-12-05 15:01:28,935 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:01:28,936 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:01:28,936 :: DEBUG :: --new timestep : 96
+2018-12-05 15:01:28,936 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:01:28,936 :: DEBUG :: --length of the extract :96
+2018-12-05 15:01:28,936 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:01:28,936 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:01:28,936 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:01:28,936 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:01:28,936 :: DEBUG :: --current time step window : 96
+2018-12-05 15:01:28,936 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 15:01:28,937 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 15:01:28,937 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:01:28,937 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:01:28,937 :: DEBUG :: --initialized label array
+2018-12-05 15:01:28,937 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:01:28,937 :: DEBUG :: --new timestep : 0
+2018-12-05 15:01:28,937 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:01:28,937 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:01:28,937 :: DEBUG :: --new timestep : 96
+2018-12-05 15:01:28,937 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:01:28,937 :: DEBUG :: --length of the extract :96
+2018-12-05 15:01:28,938 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:01:28,938 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:01:28,938 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:01:28,938 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:01:28,938 :: DEBUG :: --current time step window : 96
+2018-12-05 15:01:28,938 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 15:01:28,938 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 15:01:28,938 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:01:28,938 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:01:28,938 :: DEBUG :: --initialized label array
+2018-12-05 15:01:28,938 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:01:28,938 :: DEBUG :: --new timestep : 0
+2018-12-05 15:01:28,938 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:01:28,939 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:01:28,939 :: DEBUG :: --new timestep : 96
+2018-12-05 15:01:28,939 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:01:28,939 :: DEBUG :: --length of the extract :96
+2018-12-05 15:03:26,123 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 15:03:26,123 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:03:26,128 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:03:26,131 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:03:26,133 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:03:26,135 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:03:26,154 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:03:26,154 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:03:26,154 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:03:26,154 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:03:26,154 :: DEBUG :: --current time step window : 96
+2018-12-05 15:03:26,154 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 15:03:26,154 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 15:03:26,154 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:03:26,155 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:03:26,155 :: DEBUG :: --initialized label array
+2018-12-05 15:03:26,155 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:03:26,155 :: DEBUG :: --new timestep : 0
+2018-12-05 15:03:26,155 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:03:26,155 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:03:26,155 :: DEBUG :: --new timestep : 96
+2018-12-05 15:03:26,155 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:03:26,155 :: DEBUG :: --length of the extract :96
+2018-12-05 15:03:26,156 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:03:26,156 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:03:26,156 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:03:26,156 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:03:26,156 :: DEBUG :: --current time step window : 96
+2018-12-05 15:03:26,156 :: DEBUG :: --current track id TRQMSCD128F426A3F5
+2018-12-05 15:03:26,156 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/Q/M/S/TRQMSCD128F426A3F5
+2018-12-05 15:03:26,156 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:03:26,156 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:03:26,156 :: DEBUG :: --initialized label array
+2018-12-05 15:03:26,156 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:03:26,156 :: DEBUG :: --new timestep : 0
+2018-12-05 15:03:26,156 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:03:26,156 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:03:26,157 :: DEBUG :: --new timestep : 96
+2018-12-05 15:03:26,157 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:03:26,157 :: DEBUG :: --length of the extract :96
+2018-12-05 15:03:26,157 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:03:26,157 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:03:26,157 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:03:26,157 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:03:26,157 :: DEBUG :: --current time step window : 96
+2018-12-05 15:03:26,157 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 15:03:26,157 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 15:03:26,157 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:03:26,158 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:03:26,158 :: DEBUG :: --initialized label array
+2018-12-05 15:03:26,158 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:03:26,158 :: DEBUG :: --new timestep : 0
+2018-12-05 15:03:26,158 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:03:26,158 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:03:26,158 :: DEBUG :: --new timestep : 96
+2018-12-05 15:03:26,158 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:03:26,158 :: DEBUG :: --length of the extract :96
+2018-12-05 15:03:26,158 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:03:26,159 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:03:26,159 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:03:26,159 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:03:26,159 :: DEBUG :: --current time step window : 96
+2018-12-05 15:03:26,159 :: DEBUG :: --current track id TROUHQM128F92C5777
+2018-12-05 15:03:26,159 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/O/U/H/TROUHQM128F92C5777
+2018-12-05 15:03:26,159 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:03:26,159 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:03:26,159 :: DEBUG :: --initialized label array
+2018-12-05 15:03:26,159 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:03:26,159 :: DEBUG :: --new timestep : 0
+2018-12-05 15:03:26,159 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:03:26,159 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:03:26,160 :: DEBUG :: --new timestep : 96
+2018-12-05 15:03:26,160 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:03:26,160 :: DEBUG :: --length of the extract :96
+2018-12-05 15:03:26,160 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:03:26,160 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:03:26,160 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:03:26,160 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:03:26,160 :: DEBUG :: --current time step window : 96
+2018-12-05 15:03:26,160 :: DEBUG :: --current track id TRCTVZG128E078ED8D
+2018-12-05 15:03:26,160 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/C/T/V/TRCTVZG128E078ED8D
+2018-12-05 15:03:26,160 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:03:26,160 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:03:26,161 :: DEBUG :: --initialized label array
+2018-12-05 15:03:26,161 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:03:26,161 :: DEBUG :: --new timestep : 0
+2018-12-05 15:03:26,161 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:03:26,161 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:03:26,161 :: DEBUG :: --new timestep : 96
+2018-12-05 15:03:26,161 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:03:26,161 :: DEBUG :: --length of the extract :96
+2018-12-05 15:04:01,147 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 15:04:01,148 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:04:01,152 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:04:01,155 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:04:01,157 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:04:01,160 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:04:01,178 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:04:01,178 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:04:01,178 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:04:01,179 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:04:01,179 :: DEBUG :: --current time step window : 96
+2018-12-05 15:04:01,179 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 15:04:01,179 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 15:04:01,179 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:04:01,179 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:04:01,179 :: DEBUG :: --initialized label array
+2018-12-05 15:04:01,179 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:04:01,179 :: DEBUG :: --new timestep : 0
+2018-12-05 15:04:01,179 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:04:14,062 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 15:04:14,063 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:04:14,067 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:04:14,070 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:04:14,072 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:04:14,074 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:04:14,093 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:04:14,093 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:04:14,093 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:04:14,093 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:04:14,093 :: DEBUG :: --current time step window : 96
+2018-12-05 15:04:14,093 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 15:04:14,093 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 15:04:14,093 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:04:14,093 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:04:14,093 :: DEBUG :: --initialized label array
+2018-12-05 15:04:14,093 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:04:14,093 :: DEBUG :: --new timestep : 0
+2018-12-05 15:04:14,093 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:04:14,094 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:04:14,094 :: DEBUG :: --new timestep : 96
+2018-12-05 15:04:14,094 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:04:14,094 :: DEBUG :: --length of the extract :96
+2018-12-05 15:04:14,094 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:04:14,094 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:04:14,094 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:04:14,094 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:04:14,094 :: DEBUG :: --current time step window : 96
+2018-12-05 15:04:14,094 :: DEBUG :: --current track id TRQMSCD128F426A3F5
+2018-12-05 15:04:14,094 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/Q/M/S/TRQMSCD128F426A3F5
+2018-12-05 15:04:14,094 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:04:14,094 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:04:14,094 :: DEBUG :: --initialized label array
+2018-12-05 15:04:14,094 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:04:14,094 :: DEBUG :: --new timestep : 0
+2018-12-05 15:04:14,095 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:04:14,095 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:04:14,095 :: DEBUG :: --new timestep : 96
+2018-12-05 15:04:14,095 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:04:14,095 :: DEBUG :: --length of the extract :96
+2018-12-05 15:04:14,095 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:04:14,095 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:04:14,095 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:04:14,095 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:04:14,095 :: DEBUG :: --current time step window : 96
+2018-12-05 15:04:14,095 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 15:04:14,095 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 15:04:14,095 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:04:14,095 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:04:14,095 :: DEBUG :: --initialized label array
+2018-12-05 15:04:14,095 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:04:14,096 :: DEBUG :: --new timestep : 0
+2018-12-05 15:04:14,096 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:04:14,096 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:04:14,096 :: DEBUG :: --new timestep : 96
+2018-12-05 15:04:14,096 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:04:14,096 :: DEBUG :: --length of the extract :96
+2018-12-05 15:04:14,096 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:04:14,096 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:04:14,096 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:04:14,096 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:04:14,096 :: DEBUG :: --current time step window : 96
+2018-12-05 15:04:14,096 :: DEBUG :: --current track id TROUHQM128F92C5777
+2018-12-05 15:04:14,096 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/O/U/H/TROUHQM128F92C5777
+2018-12-05 15:04:14,096 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:04:14,096 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:04:14,096 :: DEBUG :: --initialized label array
+2018-12-05 15:04:14,097 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:04:14,097 :: DEBUG :: --new timestep : 0
+2018-12-05 15:04:14,097 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:04:14,097 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:04:14,097 :: DEBUG :: --new timestep : 96
+2018-12-05 15:04:14,097 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:04:14,097 :: DEBUG :: --length of the extract :96
+2018-12-05 15:04:14,097 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:04:14,097 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:04:14,097 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:04:14,097 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:04:14,097 :: DEBUG :: --current time step window : 96
+2018-12-05 15:04:14,097 :: DEBUG :: --current track id TRCTVZG128E078ED8D
+2018-12-05 15:04:14,097 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/C/T/V/TRCTVZG128E078ED8D
+2018-12-05 15:04:14,098 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:04:14,098 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:04:14,098 :: DEBUG :: --initialized label array
+2018-12-05 15:04:14,098 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:04:14,098 :: DEBUG :: --new timestep : 0
+2018-12-05 15:04:14,098 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:04:14,098 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:04:14,098 :: DEBUG :: --new timestep : 96
+2018-12-05 15:04:14,098 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:04:14,098 :: DEBUG :: --length of the extract :96
+2018-12-05 15:05:15,032 :: DEBUG :: --register {'labelised': ['TRBOEFO128F92FC62E', 'TRQMSCD128F426A3F5', 'TRMJSWT12903CA8AE1', 'TROUHQM128F92C5777', 'TRCTVZG128E078ED8D']}
+2018-12-05 15:05:15,032 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:05:15,037 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:05:15,039 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:05:15,042 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:05:15,044 :: DEBUG :: ---Find a labeled track
+2018-12-05 15:05:15,063 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:05:15,063 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:05:15,063 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:05:15,063 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:05:15,063 :: DEBUG :: --current time step window : 96
+2018-12-05 15:05:15,063 :: DEBUG :: --current track id TRBOEFO128F92FC62E
+2018-12-05 15:05:15,063 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/B/O/E/TRBOEFO128F92FC62E
+2018-12-05 15:05:15,063 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:05:15,063 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:05:15,063 :: DEBUG :: --initialized label array
+2018-12-05 15:05:15,063 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:05:15,063 :: DEBUG :: --new timestep : 0
+2018-12-05 15:05:15,063 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:05:15,064 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:05:15,064 :: DEBUG :: --new timestep : 96
+2018-12-05 15:05:15,064 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:05:15,064 :: DEBUG :: --length of the extract :96
+2018-12-05 15:05:15,064 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:05:15,064 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:05:15,064 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:05:15,064 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:05:15,064 :: DEBUG :: --current time step window : 96
+2018-12-05 15:05:15,064 :: DEBUG :: --current track id TRQMSCD128F426A3F5
+2018-12-05 15:05:15,064 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/Q/M/S/TRQMSCD128F426A3F5
+2018-12-05 15:05:15,064 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:05:15,064 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:05:15,064 :: DEBUG :: --initialized label array
+2018-12-05 15:05:15,064 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:05:15,064 :: DEBUG :: --new timestep : 0
+2018-12-05 15:05:15,065 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:05:15,065 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:05:15,065 :: DEBUG :: --new timestep : 96
+2018-12-05 15:05:15,065 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:05:15,065 :: DEBUG :: --length of the extract :96
+2018-12-05 15:05:15,065 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:05:15,065 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:05:15,065 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:05:15,065 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:05:15,065 :: DEBUG :: --current time step window : 96
+2018-12-05 15:05:15,065 :: DEBUG :: --current track id TRMJSWT12903CA8AE1
+2018-12-05 15:05:15,065 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/M/J/S/TRMJSWT12903CA8AE1
+2018-12-05 15:05:15,065 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:05:15,065 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:05:15,065 :: DEBUG :: --initialized label array
+2018-12-05 15:05:15,066 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:05:15,066 :: DEBUG :: --new timestep : 0
+2018-12-05 15:05:15,066 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:05:15,066 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:05:15,066 :: DEBUG :: --new timestep : 96
+2018-12-05 15:05:15,066 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:05:15,066 :: DEBUG :: --length of the extract :96
+2018-12-05 15:05:15,066 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:05:15,066 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:05:15,066 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:05:15,066 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:05:15,066 :: DEBUG :: --current time step window : 96
+2018-12-05 15:05:15,066 :: DEBUG :: --current track id TROUHQM128F92C5777
+2018-12-05 15:05:15,066 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/O/U/H/TROUHQM128F92C5777
+2018-12-05 15:05:15,066 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:05:15,066 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:05:15,067 :: DEBUG :: --initialized label array
+2018-12-05 15:05:15,067 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:05:15,067 :: DEBUG :: --new timestep : 0
+2018-12-05 15:05:15,067 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:05:15,067 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:05:15,067 :: DEBUG :: --new timestep : 96
+2018-12-05 15:05:15,067 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:05:15,067 :: DEBUG :: --length of the extract :96
+2018-12-05 15:05:15,067 :: DEBUG :: *PICK A NEW TRACK TO LABEL*
+2018-12-05 15:05:15,067 :: DEBUG :: --current_timestep : 0
+2018-12-05 15:05:15,067 :: DEBUG :: --loaded a npz into a multitrack object
+2018-12-05 15:05:15,067 :: DEBUG :: --current beat resolution : 24
+2018-12-05 15:05:15,067 :: DEBUG :: --current time step window : 96
+2018-12-05 15:05:15,067 :: DEBUG :: --current track id TRCTVZG128E078ED8D
+2018-12-05 15:05:15,067 :: DEBUG :: --current track track path : /home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/C/T/V/TRCTVZG128E078ED8D
+2018-12-05 15:05:15,067 :: DEBUG :: --current_track_length : 192
+2018-12-05 15:05:15,068 :: DEBUG :: --loaded multitrack into track object
+2018-12-05 15:05:15,068 :: DEBUG :: --initialized label array
+2018-12-05 15:05:15,068 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:05:15,068 :: DEBUG :: --new timestep : 0
+2018-12-05 15:05:15,068 :: DEBUG :: --case the length of the extract is one window 
+2018-12-05 15:05:15,068 :: DEBUG :: --case we can slide the timestep by one window 
+2018-12-05 15:05:15,068 :: DEBUG :: --new timestep : 96
+2018-12-05 15:05:15,068 :: DEBUG :: --case the length of the extract is shorter than one window, reaching the end of the track
+2018-12-05 15:05:15,068 :: DEBUG :: --length of the extract :96

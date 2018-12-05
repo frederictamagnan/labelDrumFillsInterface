@@ -101,6 +101,7 @@ class Dataset:
         self.logger.debug("--len of keys of dico "+str(len(data.keys())))
 
         data[str(trackHandler.current_track_id)]=trackHandler.label_array
+        print(trackHandler.label_array)
         self.logger.debug("--added the new label array to the dictionnary")
         self.logger.debug("--len of keys of dico with the added array =" + str(len(data.keys())))
         np.savez(self.filepath_dataset+'labels.npz', **data)

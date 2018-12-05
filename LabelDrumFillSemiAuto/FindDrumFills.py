@@ -35,7 +35,7 @@ logger.addHandler(stream_handler)
 
 PATH = '/home/ftamagna/Documents/_AcademiaSinica/dataset/lpd_debug/'
 PATH_TAGS = [
-            './id_lists/tagtraum/tagtraum_Rock.id',
+            '/home/ftamagna/Documents/_AcademiaSinica/code/LabelDrumFills/id_lists/tagtraum/tagtraum_Rock.id',
         ]
 
 
@@ -176,13 +176,14 @@ class FindDrumFills(Frame):
     def to_label(self):
 
         label=self.var_choix.get()
+
         if not (self.control_if_radio_button_is_checked(label)):
             self.button_info["text"] = "the radio button isn't checked"
             return
 
 
         self.trackHandler.to_label(label)
-        logger.debug("--fill the label_array with label")
+        logger.debug("--fill the label_array with label with " +str(label))
 
         
         

@@ -2,12 +2,6 @@
 from pypianoroll import *
 import os
 
-
-
-
-
-GLOBAL_EXTRACT_LENGTH=4
-
 PATH_TAGS = [
     './id_lists/tagtraum/tagtraum_Blues.id',
     './id_lists/tagtraum/tagtraum_Country.id',
@@ -23,8 +17,16 @@ PATH_TAGS = [
     './id_lists/tagtraum/tagtraum_Reggae.id',
     './id_lists/tagtraum/tagtraum_RnB.id',
     './id_lists/tagtraum/tagtraum_Rock.id', # 13
-    './id_lists/tagtraum/tagtraum_World.id',   
+    './id_lists/tagtraum/tagtraum_World.id',
 ]
+# PATH_TAGS = [
+#     './id_lists/tagtraum/tagtraum_Blues.id',
+# ]
+
+
+GLOBAL_EXTRACT_LENGTH=2
+
+
 PATH = '/home/ftamagna/Documents/_AcademiaSinica/dataset/lpd/lpd_cleansed/'
 
 
@@ -73,7 +75,7 @@ def crop_multitrack(multitrack):
 
     current_beat_resolution = multitrack.beat_resolution
 
-    current_timestep_window = current_beat_resolution * beat_window_length * 4
+    current_timestep_window = current_beat_resolution * beat_window_length
 
 
     current_track = Track(pianoroll=multitrack.tracks[0].pianoroll[0:current_timestep_window*GLOBAL_EXTRACT_LENGTH,:],
